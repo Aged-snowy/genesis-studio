@@ -1450,8 +1450,25 @@ const state = { lib: "My Builds", packUuid: null, modUuid: null, version: 0, bps
 function load() { try { const s = JSON.parse(localStorage.getItem(STORE_KEY) || localStorage.getItem("builderStudio.v1") || "null"); if (s) Object.assign(state, s); } catch (e) { } }
 function persistLocal() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); return true; } catch (e) { try { localStorage.setItem(STORE_KEY, JSON.stringify({ ...state, bps: [] })); } catch (e2) { } return false; } }
 
-function persist() { return persistLocal(); }
+// The library is kept in the browser's large storage (IndexedDB), so even huge blueprints survive closing the page.
+// The small storage keeps a copy too when it fits.
+const studioDB = (() => { let p = null; return () => p || (p = new Promise((ok, no) => { try { const r = indexedDB.open("genesisStudio", 1); r.onupgradeneeded = () => r.result.createObjectStore("kv"); r.onsuccess = () => ok(r.result); r.onerror = () => no(r.error); } catch (e) { no(e); } })); })();
+function dbPut(v) { return studioDB().then(db => new Promise((ok, no) => { const t = db.transaction("kv", "readwrite"); t.objectStore("kv").put(v, "state"); t.oncomplete = () => ok(true); t.onerror = () => no(t.error); t.onabort = () => no(t.error); })); }
+function dbGet() { return studioDB().then(db => new Promise((ok, no) => { const q = db.transaction("kv").objectStore("kv").get("state"); q.onsuccess = () => ok(q.result); q.onerror = () => no(q.error); })); }
+const hasBigStore = typeof indexedDB !== "undefined";
+function persist() {
+  const small = persistLocal();
+  if (hasBigStore) dbPut({ lib: state.lib, packUuid: state.packUuid, modUuid: state.modUuid, version: state.version, bps: state.bps.slice() }).catch(() => { });
+  return small || hasBigStore;
+}
 load();
+const libraryReady = hasBigStore ? dbGet().then(s => {
+  if (s && Array.isArray(s.bps) && s.bps.length >= state.bps.length) {
+    Object.assign(state, s);
+    const n = document.getElementById("libName"); if (n) n.value = state.lib || "My Builds";
+    if (document.getElementById("libList")) renderLibrary();
+  }
+}).catch(() => { }) : Promise.resolve();
 
 // ---------- block colors ----------
 const GROUPS = [

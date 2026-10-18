@@ -244,6 +244,7 @@
     if (syncing) { owed = true; return; }
     syncing = true; setSync("Bringing your library up to date...");
     try {
+      if (typeof libraryReady !== "undefined") await libraryReady;
       const [b, s] = await Promise.all([sb.from("blueprints").select("name,data").order("created_at").limit(LIMIT + 50), sb.from("studio_settings").select("data").limit(1)]);
       if (b.error) throw b.error; if (s.error) throw s.error;
       let got = 0, sent = 0, skipped = 0; const tooBig = [];
