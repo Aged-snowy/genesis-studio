@@ -2,7 +2,11 @@
 (() => {
   "use strict";
   if ("serviceWorker" in navigator && window.isSecureContext) {
-    addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => { }); });
+    // when a newer version of the site takes over, reload once so the page runs the newest code
+    const hadController = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadController && !reloaded) { reloaded = true; location.reload(); } });
+    addEventListener("load", () => { navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(r => r.update()).catch(() => { }); });
   }
   // files opened with the installed app arrive here
   if ("launchQueue" in window && window.launchQueue.setConsumer) {
