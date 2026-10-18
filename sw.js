@@ -16,7 +16,7 @@ self.addEventListener("fetch", e => {
   const fresh = req.mode === "navigate" || url.pathname.endsWith("/config.js");
   if (fresh) {
     // pages and settings: newest when online, saved copy when offline
-    e.respondWith(fetch(req).then(r => { if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(req, copy)); } return r; })
+    e.respondWith(fetch(req, { cache: "no-cache" }).then(r => { if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(req, copy)); } return r; })
       .catch(() => caches.match(req, { ignoreSearch: true }).then(r => r || caches.match("./index.html"))));
     return;
   }
