@@ -1,0 +1,75 @@
+{
+  "name": "Genesis Studio",
+  "short_name": "Genesis",
+  "description": "Turn pictures, 3D models and schematics into blueprints that Genesis builds in Minecraft. By PixelProphetOG.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#15111d",
+  "theme_color": "#5a3aa2",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "games",
+    "entertainment",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "image/png": [
+          ".png"
+        ],
+        "image/jpeg": [
+          ".jpg",
+          ".jpeg"
+        ],
+        "image/gif": [
+          ".gif"
+        ],
+        "image/webp": [
+          ".webp"
+        ],
+        "image/bmp": [
+          ".bmp"
+        ],
+        "application/octet-stream": [
+          ".obj",
+          ".stl",
+          ".glb",
+          ".gltf",
+          ".ply",
+          ".schem",
+          ".schematic",
+          ".litematic",
+          ".nbt",
+          ".mcstructure",
+          ".vox"
+        ]
+      }
+    }
+  ]
+}

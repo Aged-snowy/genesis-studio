@@ -1,0 +1,1320 @@
+GENESIS
+The Book of the World, as told by the Prophet
+A world by PixelProphetOG
+
+Wanderer.
+
+Before there was anything, there was the word. I spoke, and Genesis answered. Hills rose where I named them, rivers ran where I asked,
+and the first stones settled into the shapes I described. When the world was ready, I gave its greatest gift away: to you.
+
+Whatever you describe, Genesis will build. Speak the word /build, and then say what you wish to see, in plain words, the way you
+would tell a friend. A castle with a gold roof. A cottage with a garden and two cats. A tiny castle beneath a giant glass dome. A city.
+
+But a world is more than what stands in it. Beneath your feet lie ores I buried for you. In the wild walk creatures I dreamed. Behind
+three sealed gates wait the realms I made before this one. And somewhere, scattered and torn, lie the pages of my journal, which tell
+how all of this came to be, and what still threatens it.
+
+This book holds everything I know. The Codex in your hands holds the same, page by page, for when you are in the world.
+
+I know some 380 thousand words, 1657 blocks of the old world and 631 of my own, 1316 items and 79 creatures.
+I forgive misspellings. /genesis works the same as /build.
+
+WHAT IS NEW IN VERSION 7.3
+  A simpler Codex: the front page now has six doors instead of nineteen. Speak a Creation. Create and Shape holds Shape by Hand,
+    Reshape, the Galleries, Blueprints and the Studio, Remembered Creations and Unmake. Your Story begins with What Should I Do Next.
+    The Book of Knowledge holds Crafts, Magic, Machines, the Wilds, the Hearth and Genesis Things. Settings holds How I Build,
+    Language, Look and Learn and World Rules. Help and News holds Guidance, What Is New, Credits and the Studio website.
+  Genesis Studio is now a real website and app: https://aged-snowy.github.io/genesis-studio. It works in any web browser on Windows, Mac, ChromeOS, Linux,
+    Android, iPhone and iPad, can be installed like an app with its own icon, and keeps working offline after the first visit.
+  Optional accounts: you never need one, but a free account keeps your Studio library safe online so you can reach it on every
+    device. Passwords are never stored, only a protected hash, and nobody can see anyone else's blueprints. You can download your
+    data or delete your account at any time.
+
+WHAT IS NEW IN VERSION 7.2
+  Many tongues: speak to me in Spanish, French, German, Italian, Portuguese, Dutch, Polish, Russian, Japanese, Chinese, Korean, and in the
+    many other tongues of my great lexicon. Choose your language in the Codex under Settings, Language and World Rules, or with
+    /build language and a code: es, fr, de, it, pt, nl, pl, ru, ja, zh, ko, or auto. The Codex chapters, my welcome, my first words to
+    you and the words spoken as a creation rises follow your choice. Deeper pages are still written in English for now.
+  A far greater vocabulary: about 380 thousand English words and names, and 438 thousand more in 30 other tongues,
+    before counting plurals and other forms, which I understand by rule. Every English noun is traced up its family tree to something
+    I can build, so a giraffe becomes a statue of a giraffe and a teacher becomes a statue of a person.
+  New forms: chess pieces and whole chess sets, statues of knights, kings, queens, wizards, angels, robots, anime characters and beasts,
+    cars, trains, airplanes, hot air balloons and ferris wheels.
+  Better builds: castle towers open into the courtyard and up onto the wall walk, nothing is ever placed in front of a door, lone stray
+    blocks are tidied away, eaves tuck under the roofs, and a size typed in Shape by Hand is honored. Asked for something larger than
+    the world can take in one breath, I raise it at the largest size that fits instead of refusing.
+  Guidance: every act shows a word of guidance, /build hint tells you what to do next, and each morning I offer counsel.
+    /build hint off quiets the morning counsel.
+  Genesis Studio: the Sculpture choice finds the main subject of a picture, leaves the background behind, and shapes a full 3D statue
+    you can walk around.
+
+WHAT IS NEW IN VERSION 7: THE LIVING WORLD
+  Genesis is no longer only a place where things are built. It is a world with a story, and I am its narrator.
+  The Chronicle: ten acts, thirty torn pages of my journal, forty eight deeds and titles, and an Atlas of everything you find.
+  Ores and the Forge: 16 metals, 11 alloys, 12 gems, 8 crystals, 23 armor sets with powers,
+    and weapons that each fight their own way. Upgrade, reforge, socket, repair and salvage at the Forge.
+  Magic: runes, a four slot grimoire, spells built from an element and a form, named spells, rituals, alchemy and thirteen artifacts.
+  Machines: one flux network of generators, batteries, furnaces, crushers, quarries, harvesters, pipes, belts, lifts, teleporters,
+    turrets, drones, rovers and airships.
+  The Wilds: 41 regions, 42 new creatures to meet, tame and breed, four great bosses, three realms behind sealed gates,
+    seasons, blood moons, meteor showers and auroras.
+  Hearth and Town: 32 crops, fruit trees, herbs, 15 fish, 30 dishes, preserves, and towns that grow from a camp into a kingdom,
+    with townsfolk, trade, bounties, caravans and raids.
+  Creation: speak of things together, like a castle under a dome or a tower atop a mountain. Raise whole cities. See a creation and its
+    cost before it rises. Reshape the last creation: bigger, smaller, turned, mirrored, moved, recolored, or one block traded for another.
+    Mountains, waterfalls, lakes and statues answer you now.
+  Defense: spike traps, flame vents, alarm bells and ward stones.
+  World Rules: every system can be turned off, and survival creations can be made to cost the blocks they use.
+  The voice: every word Genesis speaks to you now comes from me. If you would rather hear it plainly, the World Rules can change that.
+
+THE FIRST STEPS
+  When you first open your eyes here, I give you five things: the Codex, the Wand, my journal, its first torn page, and a Town Charter.
+  Read the page. Open the Codex. Then speak your first creation with /build and watch it rise.
+  Your Story, in the Codex, always shows the act you are living and what it asks of you. You need only do some of each act's tasks.
+
+THE CHRONICLE
+  The Chronicle is the story of your time in Genesis, told in ten acts. Each act asks a handful of things, and when enough are done,
+  the next act begins and I reward you.
+  Act 1, The First Word: do any 2 of build anything with /build; make something at a crafting station; found a town with a town charter; read a torn page of my journal.
+  Act 2, Stone and Tin: do any 2 of mine 20 ores; make bronze; discover 6 materials; reach level 3 in mining.
+  Act 3, The Hearth: do any 2 of harvest 15 crops; cook 3 different dishes; catch 3 kinds of fish; tame a creature.
+  Act 4, Fire and Steel: do any 2 of make steel; upgrade gear at the forge; wear a full armor set; defeat an elite monster.
+  Act 5, The Weave: do any 2 of learn 3 runes; cast 15 spells; perform a ritual; brew an elixir.
+  Act 6, The Engine: do any 2 of place 5 machines; study engineering at a research desk; ride a rover, an airship or a mount; reach level 3 in engineering.
+  Act 7, The Wilds: do any 2 of discover 12 lands; meet 15 kinds of creatures; find 10 journal pages; tame a creature you can ride.
+  Act 8, Beyond the Gates: do any 2 of enter a realm; enter all three realms; defeat a great boss; find 18 journal pages.
+  Act 9, The Hollow Host: do any 2 of defend a town from the hollow host; close a rift; defeat two of the colossus, the titan and the queen; survive a blood moon.
+  Act 10, The Last Word: do this of defeat the unspoken.
+
+  My journal was torn into thirty pages and scattered through ruins, temples, chests and the realms. Use a torn page to bind it into
+  the Prophet's Journal, and read it from the Codex. The pages, in order: Before, The First Word, Stone, Bronze, The Hearth, The Weave, Runes, The Beasts, The Griffin, The First King, Flux, The Isles, The Deep, The Stars, The Unspoken, The Wounds, The Blood Moon, The Hollow Host, Towns, The Titan, The Queen, The Trophies, The Spire, Seeds, The Hourglass, Alchemy, Building, The Voice, The Quill, After.
+
+DEEDS AND TITLES
+  Great deeds earn titles. Choose the one you wear on the Deeds page of Your Story.
+  Speak your first creation: Builder
+  Build 25 creations: Architect
+  Build 100 creations: Master Architect
+  Mine 100 ores: Delver
+  Mine 1000 ores: Deep Delver
+  Upgrade gear 10 times: Smith
+  Set 5 gems: Gemcutter
+  Harvest 100 crops: Farmer
+  Grow every crop: Gardener of Genesis
+  Catch 10 kinds of fish: Angler
+  Catch every kind of fish: Master Angler
+  Cook 10 dishes: Cook
+  Cook every dish: Gourmet
+  Brew 10 elixirs: Brewmaster
+  Tame 3 creatures: Beast Friend
+  Tame 10 creatures: Beastmaster
+  Ride a creature or machine: Rider
+  Discover 20 lands: Wayfarer
+  Discover every land: Cartographer
+  Meet 30 kinds of creatures: Naturalist
+  Cast 50 spells: Spellcaster
+  Learn all 17 runes: Archmage
+  Perform 5 rituals: Ritualist
+  Place 10 machines: Engineer
+  Place 50 machines: Industrialist
+  Found a town: Founder
+  Grow a town into a kingdom: Monarch
+  Defend towns from 3 raids: Defender
+  Finish 5 bounties: Bounty Hunter
+  Find starmetal: Starcatcher
+  Walk all three realms: Realmwalker
+  Shatter the Crystal Colossus: Colossus Breaker
+  Quench the Infernal Titan: Titan Bane
+  Ground the Wyvern Queen: Queenslayer
+  Break the silence: Voice of Genesis
+  Find every page of my journal: Loremaster
+  Fill 100 entries in your Atlas: Collector
+  Fill 300 entries in your Atlas: Keeper of the Atlas
+  Find buried treasure: Treasure Hunter
+  Defeat 25 elites: Elite Hunter
+  See an aurora: Moonwatcher
+  Survive a Blood Moon: Bloodmoon Survivor
+  Live through all four seasons: Seasoned
+  Reach level 10: Adventurer
+  Reach level 25: Hero
+  Reach level 50: Legend
+  Grow a World Tree: Treeshaper
+  Hold 5 artifacts: Relic Keeper
+
+SPEAKING A CREATION
+  Speak the word /build and say what you wish to see. I listen for a form, a size, up to four materials, themes, creatures, treasure
+  and touches. Whatever you leave unsaid, I choose well. A theme can choose the form, a material can choose the form, and a single
+  material brings a roof and trim that suit it.
+  Materials fall in this order: walls, trim and pillars, roof, then details, glass and lights.
+  Or name the part yourself: gold roof, stone walls, walls made of cherry, copper trim, glass windows.
+
+  Some things to say:
+    /build a manor with two wings, a balcony and a chimney
+    /build a huge spooky castle with a gold roof, a moat, 4 iron golems, and diamonds in a chest
+    /build cozy cottage with a garden and 2 cats
+    /build a farm with 5 cows and 3 sheep
+    /build pool with 6 tropical fish and an axolotl
+    /build citadel of polished granite with copper trim
+    /build a huge dungeon
+    /build a tiny stone castle surrounded by a giant glass dome
+    /build a tower on top of a mountain
+    /build a modern city
+    /build a giant statue of a dragon
+
+THINGS TOGETHER
+  Speak of how two things stand, and I will honor it.
+  surrounded by, encircled by, ringed by, under a: the second thing holds the first. A tiny castle surrounded by a giant glass dome
+    raises the castle, then a dome sized and set so every corner of the castle fits inside.
+    If the second thing is small, or many, it forms a ring instead: a glass dome surrounded by small towers, or a castle with 6 towers around it.
+  inside, within, in the middle of: a garden inside a dome, a house inside a glass sphere.
+  on top of, atop, upon: a tower on top of a mountain. The second thing rises first, and the first stands on its highest point.
+  under, beneath, below: a crypt under a church.
+  next to, beside, near: a house next to a barn.
+  A creation of many parts is unmade all at once with a single /undo.
+
+CITIES
+  Say small city, city, great city or huge city, and I lay out a grid of streets with lamps at every crossing, clear the ground, and
+  raise each district in turn. A great hall or cathedral stands at the heart, markets and workshops around it, homes beyond, farms and
+  stables at the rim of the larger cities, and towers at the corners.
+  Small cities have 9 districts, cities 16, great cities 25, and the vast ones 36.
+  Add a style and every district wears it: a cherry city, a spooky city, a desert city. Say modern city for towers, stations and hospitals.
+  When it stands, place a Town Charter in its heart and folk will come to live there.
+
+LANDSCAPES AND STATUES
+  mountain: a rugged peak with grassy slopes, scattered ore, spruce trees and a snow cap.
+  waterfall: a cliff with a river cut across its top that pours over the edge into a deep pool.
+  lake: a wide lake with a sandy shore, reeds, lily pads and a little lantern jetty.
+  volcano and floating island answer as they always have.
+  statue: a great figure on a plinth with a sword raised. Say holding a torch for a torch instead.
+    Name a creature and the statue takes its shape: a statue of a horse, a giant statue of a dragon, a statue of a wolf. Winged
+    creatures get wings.
+
+SEEING BEFORE RAISING
+  Say /build preview and any description. I mark where it would stand with a glowing outline, and tell you how many blocks it would take
+  and of what. Say /build yes to raise it exactly as shown, or /build no to let it fade.
+  The Codex can do the same: in Speak a Creation, turn on Show me its outline and cost first.
+  If the World Rules say creations cost their blocks, a creation in survival takes what it needs from your inventory, and tells you
+  exactly what you lack if you do not have it all.
+
+RESHAPING THE LAST CREATION
+  Once a creation stands, you may change it. I unmake the old shape and raise the new one in the same place, with the same details.
+  /build bigger and /build smaller, or with a percent: /build bigger 50.
+  /build turn right, /build turn left, /build turn around.
+  /build mirror swaps its left and right.
+  /build move left 10, or forward, back, up, down, north, south, east or west, and how far.
+  /build recolor gold, or name a part: /build recolor red roof, /build recolor cherry walls.
+  /build replace oak planks with cherry planks trades one block for another everywhere in it.
+  The Codex has a page for all of these: Reshape the Last Creation.
+
+WORDS OF POWER
+  /build anything
+  /build hint: what to do next. /build language: choose your tongue. /build studio: how to reach Genesis Studio
+  /build help, and the topics shapes, colors, materials, themes, mobs, items, options, saving, blueprints, words, reshaping, cities
+  /build preview anything, then /build yes or /build no
+  /build explain anything: hear how I understood you, without building
+  /build random, /build ideas, /build again, /build stop
+  /undo: unmake the last creation, and the creatures it brought. I remember the last forty.
+  /build bigger, smaller, turn, mirror, move, recolor, replace
+  /build save NAME words, then /build NAME. /build saved. /build delete NAME
+  /build speed slow, normal, fast or turbo
+  /build look, /build hud, /build hud chat
+  /build character, /build quests, /build journal, /build market, /build rift, /build coins, /build mana, /build mail
+  /build blueprints, copy, paste, overlay, next, check, materials, supplies (see BLUEPRINTS)
+  /build book gives you the Codex and the Wand
+  /build credits
+
+THE CODEX AND THE WAND
+  The Codex opens to six chapters:
+    Speak a Creation: describe anything and I build it.
+    Create and Shape: Shape by Hand, Reshape the Last Creation, Galleries of Form, Blueprints and Genesis Studio, Remembered Creations,
+      and Unmake the Last Creation.
+    Your Story: What Should I Do Next, the act you are living, your journal pages and your growth.
+    The Book of Knowledge: Crafts and Recipes, Magic, Machines and Flux, the Wilds and Realms, Hearth, Farm and Town, Genesis Things.
+    Settings: How I Build, Language, Look and Learn, and World Rules.
+    Help and News: Guidance, What Is New, Credits, and the Genesis Studio website.
+  Every page is a list of plain buttons, kind to screen readers.
+  The Wand: use it on a block to build right there. Sneak and use it to mark the corners of something to copy.
+  Book and brick make the Codex. A stick and an amethyst shard make the Wand. Every new wanderer receives both.
+
+YOUR GROWTH
+  You carry one level and ten skills: combat, mining, building, smithing and crafting, exploring, magic, farming, cooking, engineering
+  and taming. Each grows as you use it, and all of it adds to your level. Every level brings a perk point.
+  Perks come in eight paths, four in each, and the later ones need the earlier:
+  Warrior: Tough (Two extra hearts, always); Strong (Strength I, always); Berserker (Every kill heals you for a few seconds); Champion (Four more hearts and resistance I).
+  Explorer: Swift (Speed I, always); Leaper (Jump boost I, always); Night Eyes (See in the dark, always); Treasure Sense (Better loot from chests, elites and bosses).
+  Miner: Digger (Haste I, always); Lucky Vein (Ores sometimes drop double); Deep Sight (Mining an ore tells you about other ores nearby); Human Drill (Haste II, always).
+  Mage: Mana Pool (50 more mana); Quick Cast (Spells cost a third less mana); Arcane Shield (Casting a spell gives you extra hearts for a moment); Archmage (100 more mana, and mana comes back twice as fast).
+  Builder: Architect (Your builds go up 50 percent faster); Patron (Every build you make earns you coins); Scholar (25 percent more experience from everything); Visionary (Builds you describe come out detailed and furnished every time).
+  Engineer: Tinker (Your machines run 25 percent faster); Efficient (Your machines use a third less flux); Overclock (Your generators make half again as much flux); Mastermind (Tech weapons and drills wear half as fast, and your drone fights for you).
+  Hearth: Green Thumb (Your crops sometimes give double); Angler (Luck of the sea, always); Master Chef (Meals you eat last twice as long); Homesteader (Regeneration while you stand in your own town).
+  Beastmaster: Beast Whisperer (Wild beasts are tamed on the first try more often); Pack Leader (Your companions are stronger and tougher); Born Rider (Mounts and griffins carry you faster); Wild Heart (Neutral beasts never turn on you, and rare beasts find you more often).
+
+  Loot comes in five rarities: Common, Uncommon, Rare, Epic and Legendary, with powers written beneath the name.
+  Some monsters are born elite, with a title and a power. They are tougher and leave better things behind.
+  Daily Tasks: three each morning. They pay in gold and sometimes gear.
+  The Market buys and sells with coins. Gold is worth 10, silver 5, copper 1.
+  Rifts: on some nights a Rift tears open. Survive three waves and a chest appears. /build rift tells you where it is.
+
+ORES AND METALS
+  New ores appear in land you have not yet explored, so wander far or begin a new world.
+  Mine the ore, smelt the raw metal into ingots, or crush it in a Crusher for two dusts. Fortune works on every ore I made.
+  Tin: Common in stone from sea level to the hills. Used for bronze, solder for circuits, cans and cables.
+    Soft and humble. Alone it is little. With copper it built the first age.
+  Zinc: Stone at middle depths, richest beneath the red mesas. Used for brass, batteries and galvanized parts.
+    A blue grey metal that guards others from rust.
+  Nickel: Stone and deepslate below the surface. Used for invar, magnets, batteries and heat proof parts.
+    Stubborn under the hammer and calm in the fire.
+  Lead: Deepslate, heavy veins far below. Used for solder, reactor shielding, sinkers and weights.
+    The heaviest of the common metals. It shields what must not escape.
+  Aluminum: Bauxite near the surface of mesas, savannas and deserts. Used for duralumin, gliders, light armor and wiring.
+    Light as a feather and quick to carry a current.
+  Platinum: Rare and deep, below Y -24. Used for rings, amulets, spell foci and fine circuits.
+    The metal of kings and mages. It never tarnishes.
+  Tungsten: Wolframite under the high mountains. Used for hammers, excavators, drill bits and furnace linings.
+    Nothing melts it and little scratches it.
+  Titanium: Ilmenite in deepslate, scattered and shy. Used for light strong armor, daggers, spears and fast pickaxes.
+    As strong as steel at half the weight.
+  Cobalt: Blue veins in the netherrack of the Nether. Used for the fastest mining tools, blue dyes and magnets.
+    It sings when struck. Miners swear it digs by itself.
+  Uranium: Faintly glowing, at the very bottom of the world. Used for reactor fuel. keep it far from your food.
+    It burns without fire. Respect it.
+  Silver: Stone and deepslate from Y -16 to 56. Used for weapons that wound the undead, electrum, mirrors and coins.
+    Moonlight made solid. The dead fear its touch.
+  Mythril: Deep stone and deepslate, Y -48 to 12. Used for magic armor, staffs, aetherium and the swiftest blades.
+    Light as silk and humming with the Weave.
+  Adamantite: The deepest deepslate, below Y -24. Used for the heaviest armor and weapons of all.
+    The bones of the world. Worth every swing of the pick.
+  Orichalcum: Lush caves and the roots of jungles. Used for spell power, scythes and arcane robes.
+    The lost metal of a drowned kingdom. It remembers spells.
+  Infernium: Burning veins in the Nether, thickest near basalt and lava. Used for emberguard armor, fire weapons and soulsteel.
+    Born in the fire and never cools.
+  Starmetal: Only where a falling star strikes the ground, and in the Starfall Expanse. Used for starsteel, celestial armor and the star key.
+    Iron that fell from the sky, still cold from the void.
+
+ALLOYS
+  Alloys are joined at the Forge, or in an Alloy Smelter. Bronze, brass and steel you know from the start. The rest come through research.
+  Bronze: 3 copper ingot and 1 tin ingot make 4. The first alloy. The first age.
+  Brass: 2 copper ingot and 1 zinc ingot make 3. Bright as gold and far more useful.
+  Steel: 2 iron ingot and 2 coal make 2. Iron that learned discipline in the fire.
+  Invar: 2 iron ingot and 1 nickel ingot make 3. It does not swell in the heat. Engineers love it.
+  Electrum: 1 gold ingot and 1 silver ingot make 2. Pale gold that carries both current and charm.
+  Solder: 1 tin ingot and 1 lead ingot make 2. The glue of the machine age.
+  Duralumin: 3 aluminum ingot and 1 copper ingot make 4. Hard aluminum, the skin of flying machines.
+  Starsteel: 1 starmetal ingot and 2 steel ingot make 2. Steel tempered with a fallen star.
+  Soulsteel: 1 infernium ingot and 2 soul crystal and 1 steel ingot make 2. It whispers. Do not listen too long.
+  Aetherium: 2 mythril ingot and 2 aether crystal make 2. Mythril woven with the light of the high isles.
+  Voidsteel: 2 void crystal and 1 netherite scrap and 2 steel ingot make 2. Forged where nothing is. It weighs less than it should.
+
+GEMS
+  Set a gem into a weapon at the Forge for its power. Wear gem armor for its ward.
+  Ruby: in a weapon, fire: sets foes ablaze. In armor, fire ward. Where to look: Gem ore underground.
+  Sapphire: in a weapon, frost: slows foes. In armor, water breathing. Where to look: Gem ore underground.
+  Topaz: in a weapon, storm: lightning strikes. In armor, haste. Where to look: Gem ore underground.
+  Jade: in a weapon, venom: poisons foes. In armor, poison immunity. Where to look: Gem ore in jungle, bamboo lands.
+  Opal: in a weapon, lifesteal: heals you. In armor, extra hearts. Where to look: Gem ore in desert, mesa lands.
+  Onyx: in a weapon, decay: withers foes. In armor, resistance. Where to look: Gem ore underground.
+  Peridot: in a weapon, fortune: more loot. In armor, luck. Where to look: Gem ore in savanna, plains lands.
+  Garnet: in a weapon, fury: critical hits. In armor, strength. Where to look: Gem ore in mountains, extreme_hills, stony_peaks, grove, meadow lands.
+  Aquamarine: in a weapon, tide: knocks foes back. In armor, swift swimming. Where to look: Gem ore in ocean, beach, river lands.
+  Moonstone: in a weapon, moon: stronger at night. In armor, night vision. Where to look: Gem ore in cold, frozen, taiga, ice lands.
+  Sunstone: in a weapon, sun: stronger by day. In armor, fire resistance. Where to look: Gem ore in desert, mesa, savanna lands.
+  Amethyst: in a weapon, mana: restores mana on hit. In armor, mana flow. Where to look: Cut from amethyst at the Forge.
+
+CRYSTALS
+  Crystals hold the elements, and grow only where their element is strong.
+  Aether Crystal: grows in deep geodes, and the Dreaming Isles. Used for flux, magic, the aether key.
+  Fire Crystal: grows in the Nether. Used for fire runes, emberguard, generators.
+  Frost Crystal: grows in caves under frozen lands. Used for frost runes, frostguard, coolers.
+  Storm Crystal: grows in high mountain peaks. Used for storm runes, batteries, the storm staff.
+  Earth Crystal: grows in dripstone caves and the deep dark. Used for earth runes, earth walls, tunnel bores.
+  Life Crystal: grows in lush caves. Used for life runes, healing, growth.
+  Void Crystal: grows in the End. Used for spatial runes, voidsteel, the star key.
+  Soul Crystal: grows in the Valley of Souls in the Nether. Used for soulsteel, summoning, bindings.
+
+OTHER MATERIALS
+  Plant Fiber: From cutting grass with a sickle, or breaking tall grass. Used for cloth, rope, ranger gear.
+  Cloth: From the Loom, from fiber or wool. Used for robes, sails, bandages, banners.
+  Rope: From the Loom, from fiber. Used for grappling hooks, rope coils, rigging.
+  Hardened Leather: From the Loom, from leather and resin. Used for ranger and mountaineer gear.
+  Shell: From crabs on the beaches. Used for diver gear, lime, decoration.
+  Beast Scale: From sharks, lizards and wyverns. Used for diver and wyvern armor.
+  Griffin Feather: From griffins of the Dreaming Isles. Used for gliders, the aether key, featherfall elixirs.
+  Wyvern Scale: From the Wyvern Queen. Used for wyvern armor, the mightiest gliders.
+  Fossil Shard: From fossil ore under deserts and mesas. Used for bone meal, museums, alchemy.
+  Amber: From fossil ore, rarely. Used for alchemy, jewelry, a little light.
+  Ectoplasm: From wraiths and spirits. Used for illusion magic, ghost elixirs.
+  Elemental Core: From any elemental. Used for staffs, golems, machine cores.
+  Circuit Board: From the Forge, from electrum, solder and redstone. Used for every machine.
+  Machine Frame: From the Forge, from steel and invar. Used for every machine.
+  Flux Cell: From the Forge, from zinc, lead and storm crystal. Used for drills, blasters, drones.
+
+WEAPONS AND TOOLS
+  Every family of weapon fights its own way:
+  Swords are balanced and true. Daggers strike twice as hard from behind. Greatswords sweep everything in front of you.
+  Spears thrust at foes beyond a sword's reach, and javelins and knives are thrown. Warhammers slam the ground on a full strike.
+  Scythes drink a little life with every hit. Silver burns the undead. Voidsteel lets its wielder blink forward.
+  Staves cast the spell in your grimoire's chosen slot with their element's strength. Sneak and use one to change slots.
+  Rifles and blasters need no mana, and can be silenced in the World Rules.
+  Hammers break three by three, excavators dig wide, lumber axes fell whole trees, sickles reap whole fields, and drills bite fastest.
+  The chisel reshapes stone into its finer forms. The wrench reads and turns machines.
+  At the Forge: upgrade gear with coins and ingots, reforge it with lapis for a new modifier, set gems, repair, and salvage.
+
+  The weapons and tools of Genesis:
+  Sword: bronze sword, steel sword, starsteel sword, soulsteel sword, voidsteel sword, titanium sword, silver sword, mythril sword, adamantite sword
+  Dagger: bronze dagger, titanium dagger, silver dagger, voidsteel dagger
+  Greatsword: steel greatsword, adamantite greatsword, starsteel greatsword
+  Spear: bronze spear, steel spear, titanium spear, mythril spear
+  Warhammer: steel warhammer, tungsten warhammer, adamantite warhammer
+  Scythe: steel scythe, soulsteel scythe, orichalcum scythe
+  Javelin: javelin
+  Knife: throwing knife
+  Rifle: rail rifle
+  Blaster: flux blaster
+  Staff: ember staff, rime staff, tempest staff, terra staff, verdant staff, void staff, aether staff, orichalcum staff
+  Pickaxe: bronze pickaxe, steel pickaxe, titanium pickaxe, cobalt pickaxe, starsteel pickaxe, tungsten pickaxe, silver pickaxe, mythril pickaxe, adamantite pickaxe
+  Hammer: steel hammer, tungsten hammer, adamantite hammer
+  Excavator: steel excavator, tungsten excavator
+  Lumberaxe: steel lumber axe, titanium lumber axe
+  Sickle: bronze sickle, steel sickle
+  Drill: flux drill
+  Chisel: chisel
+  Wrench: wrench
+  Axe: silver axe, mythril axe, adamantite axe
+
+ARMOR SETS
+  Wear all four pieces of a set to wake its power.
+  Bronze (medium): Steady and honest. Two extra hearts.
+  Steel (heavy): Heavy. Resistance, but slower feet.
+  Silver (medium): Night vision. Holy against the dead.
+  Titanium (light): Light. Speed and high leaps.
+  Aviator (light): Sneak in the air to drift down.
+  Mythril (magic): Mana flows twice as fast.
+  Adamantite (heavy): Resistance and extra hearts.
+  Orichalcum (magic): Spells strike a third harder.
+  Platinum (regal): Luck, and villagers treat you as a hero.
+  Cobalt (light): Haste II while you dig.
+  Tungsten (heavy): Resistance and haste. Slow feet.
+  Starsteel (legendary): Night vision, starfall and night might.
+  Soulsteel (legendary): Fireproof. Your blows drink life.
+  Voidsteel (legendary): Sometimes you blink away from harm.
+  Emberguard (environment): Fireproof, heatproof, burns attackers.
+  Frostguard (environment): Coldproof. Attackers are slowed.
+  Diver (specialist): Breathe and see and swim beneath the sea.
+  Delver (specialist): A lamp on your brow, and haste.
+  Ranger (light): Speed. Unseen while you sneak.
+  Arcanist (magic): More mana, cheaper spells.
+  Engineer (tech): A flux shield that recharges.
+  Mountaineer (specialist): Sneak at a wall to climb. Soft landings.
+  Wyvern (legendary): High leaps, slow falls, fireproof.
+
+GADGETS
+  Glider: Hold use while falling to glide.
+  Grappling Hook: Use it on a far block to pull yourself there.
+  Climbing Picks: Hold them and sneak at a wall to climb.
+  Rope Coil: Use it on a ledge to drop a rope ladder.
+  Compass of Seeking: Use it to find the nearest wonder.
+  Repair Kit: Use it to mend what you hold.
+  Lantern Charm: Keep it in your offhand for light.
+  Ward Charm: Keep it in your offhand for a barrier.
+  Lute: Play a song. Songs give blessings.
+  Flute: Play a song. Animals follow the tune.
+  War Drum: Beat it to rally strength.
+  Harp: Play to soothe and heal.
+  Aether Key: Opens the gate to the Dreaming Isles.
+  Deep Key: Opens the gate to the Hollow Deep.
+  Star Key: Opens the gate to the Starfall Expanse.
+  Prophet's Journal: Read the pages you have found.
+  Grand Grimoire: Choose your spells and craft new ones.
+  Blank Rune: Inscribe it at the Arcane Altar.
+  Drone Kit: Use it to wake your helper drone.
+  Rover Kit: Use it on the ground to build a rover.
+  Airship Kit: Use it to raise an airship.
+  Town Charter: Use it to found a town where you stand.
+  Bounty Scroll: A hunter's contract.
+  Bandage: Use it to heal a little.
+  Fertilizer: Use it on crops to make them grow.
+  Fishing Net: Use it in water to catch something.
+  Taming Treat: Feed it to a wild beast to befriend it.
+  Griffin Saddle: Lets you ride a tamed griffin.
+
+STATIONS
+  The Forge: alloys, smithing, upgrades, reforging, sockets, repair and salvage.
+  The Artisan's Loom: cloth, rope and fine things of thread.
+  The kitchen: the Cooking Pot, the Brick Oven, the Cutting Board, the Grill and the Kettle. See DISHES.
+  The Fermentation Barrel: fruit, grain or honey become preserves in one day.
+  The Alchemy Table: herbs and crystals become elixirs. See ALCHEMY.
+  The Arcane Altar: inscribe runes, perform rituals and infuse items.
+  The Research Desk: study what you hold for insight, and spend insight to learn.
+  The Shop Counter, the Charter Stone and the Bounty Board belong to towns. See TOWNS.
+  At any station you may Experiment: offer what you carry, and if it matches a recipe you do not know, you learn it. If it is close,
+  I give you a hint. Recipes are also learned from research, from scholars in towns, and from the pages of my journal.
+
+RESEARCH
+  Insight comes from discovering things, studying what you hold, and reading. Spend it at the Research Desk.
+  Metallurgy I (3 insight): Iron and nickel, tin and lead. The quiet alloys that make machines possible.
+  Metallurgy II (6 insight, after Metallurgy I): Gold that carries current, and aluminum hard enough to fly.
+  Star Metallurgy (12 insight, after Metallurgy II): What fell from the sky and what burns below can both be tamed.
+  Forbidden Metallurgy (20 insight, after Star Metallurgy): Metals of the high isles and of the empty dark.
+  The Three Keys (10 insight, after Metallurgy II): How the gates to the realms beyond may be opened.
+  Cookery I (3 insight): Hearty food for hard days.
+  Cookery II (6 insight, after Cookery I): Dishes worth a journey.
+  Cookery of Wonders (10 insight, after Cookery II): Food that carries the power of strange plants.
+  Teas and Tonics (4 insight): Kettle craft.
+  Arcana I (4 insight): The first named spells, beyond the runes.
+  Arcana II (8 insight, after Arcana I): Spells of place, of air, of hiding and of green things.
+  Arcana III (14 insight, after Arcana II): Great workings. Use them wisely.
+  Husbandry (4 insight): How beasts pass their coats and colors to their young, and how rare ones come to be.
+  Engineering (5 insight): How flux moves through cable and relay, and how machines share it.
+  Cartography (4 insight): The names and secrets of every land.
+
+MAGIC
+  Magic in Genesis is a grammar. Every spell joins an element to a form. Fire and bolt make a fire bolt. Life and ward make a healing
+  ward. Learn a rune by using it, inscribe blank runes at the Arcane Altar, and set spells into the four slots of the Grand Grimoire.
+  Cast with a staff. Mana returns over time, and faster for those who wear the arcane set or walk the Mage path.
+  Elements: Fire, Frost, Storm, Earth, Life, Void, Arcane, Shadow, Air.
+  Bolt: A missile that flies where you look.
+  Burst: An explosion of power around you.
+  Wall: A wall of the element before you.
+  Ward: A shield that guards you.
+  Self: The element empowers your own body.
+  Bridge: A path of the element over a gap.
+  Rain: The element falls from the sky where you look.
+  Summon: Calls a spirit of the element to fight beside you.
+
+  Named spells, learned through research and old pages:
+  Light (6 mana): A floating light where you look, and clear sight.
+  Mend (20 mana): Repairs a tenth of what you hold.
+  Blink (12 mana): Step instantly where you look.
+  Recall (40 mana): Return to where you sleep.
+  Levitate (18 mana): Rise into the air for a few breaths.
+  Veil (25 mana): Become unseen for half a minute.
+  Growth (25 mana): Crops and saplings around you grow.
+  Meteor (70 mana): Call a falling star down on your foes.
+  Stillness (60 mana): Everything around you nearly stops.
+  Call the Golem (60 mana): An iron guardian fights for you for a minute.
+  Decoy (30 mana): A double of you draws your foes away.
+
+RITUALS
+  Performed at the Arcane Altar with the right offerings, at the right time and place.
+  Ritual of Dawn: At night, with 4 candles near the altar. Offer 1 sunflower, 1 gold ingot.
+  Ritual of Storms: Two storm crystals. Offer 2 storm crystal.
+  Ritual of Plenty: A life crystal and 8 bone meal. Offer 1 life crystal, 8 bone meal.
+  Ritual of Renewal: An aether crystal and 4 diamonds. Offer 1 aether crystal, 4 diamond.
+  Ritual of Binding: A soul crystal, with your tamed beasts near. Offer 1 soul crystal.
+  Ritual of Clarity: A moonpetal and a glowcap. Offer 1 moonpetal, 1 glowcap.
+  Summon the Crystal Colossus: 8 aether crystals and an earth crystal, deep underground or in the Hollow Deep. Offer 8 aether crystal, 1 earth crystal.
+  Summon the Infernal Titan: 8 fire crystals and a block of infernium, in the Nether. Offer 8 fire crystal, 1 infernium block.
+  Summon the Wyvern Queen: 8 beast scales and 4 storm crystals, high in the mountains (above Y 120). Offer 8 beast scale, 4 storm crystal.
+  Call The Unspoken: The trophies of the Colossus, the Titan and the Queen, in the Starfall Expanse, at night. Offer 1 trophy crystal colossus, 1 trophy infernal titan, 1 trophy wyvern queen.
+
+ALCHEMY
+  Every herb, crystal and strange thing has two hidden properties. Put three ingredients in the Alchemy Table. Where two share a
+  property, the elixir carries it. Taste things and study them to learn their properties. The herbs of Genesis:
+  Basil: Warmth and Vigor
+  Mint: Clarity and Cold
+  Sage: Ward and Clarity
+  Lavender: Calm and Sleep
+  Ginseng: Vigor and Healing
+  Mandrake: Shadow and Strength
+  Glowcap: Light and Sight
+  Emberbloom: Fire and Strength
+  Frost Lily: Cold and Ward
+  Starflower: Light and Arcane
+  Nightshade: Poison and Shadow
+  Moonpetal: Arcane and Calm
+  Coat a blade with a poison vial for venomous strikes. The Philosopher's Stone turns lesser metals into greater ones.
+
+ARTIFACTS
+  Thirteen things older than you, each with a tale. Carry them and they lend you their power.
+  Heart Of The Mountain: When the first mountain was raised, its heart was left beating beneath it. Miners who carry it never lose their way in the dark. Found with the Crystal Colossus.
+  First Kings Crown: The first king of Genesis built a city with his own hands. His crown remembers every stone he laid. Found with a throne room in a realm temple.
+  Prophets Quill: With this quill I wrote the first word of the world. Carry it, and what you speak is built swiftly. Found with the end of the Chronicle.
+  Starfall Compass: It points to where the sky breaks. Those who follow it find what others only wish upon. Found with a fallen star.
+  Tidecaller Conch: Blow it, and the sea remembers you are its friend. Found with the deep ocean.
+  Emberheart: The Titan's heart still burns. Hold it close and fire becomes your servant. Found with the Infernal Titan.
+  Frostfang: A dagger of ice that never melts. What it cuts, it stills. Found with the frozen peaks.
+  Stormcaller: The Queen nested on this spear for an age. Thunder follows it. Found with the Wyvern Queen.
+  World Seed: A seed from the tree that holds up the sky. Plant it, and a giant will grow. Found with the Dreaming Isles.
+  Void Lantern: Its light shows paths that are not there, until you take them. Found with the End.
+  Hourglass Of Ages: Time runs both ways in this glass. Once in a long while, it turns death aside. Found with the Hollow Deep.
+  Shepherds Bell: Every beast knows its sound, and comes. Found with a wandering caravan.
+  Mask Of The Unspoken: The face of silence itself. Wear it, and the monsters of the night mistake you for one of their own. Found with The Unspoken.
+
+MACHINES AND FLUX
+  Flux is the lifeblood of machines. Generators make it, cables and relays carry it, batteries keep it, and machines spend it.
+  Every joined group of cables and machines is one network, and flux is shared through it. A Flux Relay reaches anything within
+  16 blocks without cables. Put a chest beside a machine and it takes its inputs from there and leaves its outputs.
+  Use a machine to see its state, switch it on or off, and set its options. A wrench reads it at a glance. The Codex page Machines Near Me
+  lists every machine around you.
+  Combustion Generator: Burns coal, charcoal, blaze rods or lava. Use it with fuel in hand. Holds 4000 flux.
+  Solar Panel: Makes flux under an open sky by day. Holds 2000 flux.
+  Wind Turbine: The higher it stands, the more it makes. Holds 2000 flux.
+  Water Wheel: Turns with water flowing beside it. Holds 2000 flux.
+  Geothermal Generator: Draws heat from lava beside it. Holds 4000 flux.
+  Fission Reactor: Burns uranium for great power. Keep water beside it, or it overheats. Holds 20000 flux.
+  Flux Battery: Stores flux for when it is needed. Holds 60000 flux.
+  Flux Cable: Carries flux to anything it touches. Holds 0 flux.
+  Flux Relay: Sends flux through the air to other relays within 16 blocks. Holds 0 flux.
+  Electric Furnace: Smelts what is in the chest above it into the chest below it. Holds 2000 flux.
+  Crusher: Grinds ores and raw metal into twice the dust. Chest above, chest below. Holds 2000 flux.
+  Alloy Smelter: Makes any alloy you know from the chest above into the chest below. Holds 2000 flux.
+  Quarry: Digs a square shaft beneath it and fills the chest beside it. Holds 4000 flux.
+  Harvester: Harvests and replants ripe crops around it into the chest beside it. Holds 2000 flux.
+  Item Pipe: Moves items from the container behind it to the one in front. Holds 0 flux.
+  Conveyor Belt: Carries items and creatures the way it faces. Holds 0 flux.
+  Charging Station: Recharges drills, rifles, blasters and gliders of anyone near. Holds 4000 flux.
+  Teleporter Pad: Link two pads. Step on one to arrive at the other. Holds 6000 flux.
+  Elevator Platform: Jump to rise to the next platform above. Sneak to go down. Holds 0 flux.
+  Ward Pylon: Keeps monsters out of a 12 block circle. Holds 4000 flux.
+  Arrow Turret: Shoots monsters within 16 blocks. Holds 3000 flux.
+  Pump: Drains water and lava below it. Holds 2000 flux.
+  Assembler: Makes a chosen Forge or Loom recipe from the chest above into the chest below. Holds 3000 flux.
+
+  Vehicles: a Rover Kit sets down a ground vehicle. An Airship Kit calls an airship that flies wherever you look while you ride.
+  A Drone Kit brings a helper that follows you and gathers what falls, and fights with the Mastermind perk.
+
+THE WILDS: REGIONS
+  Genesis is divided into regions. Each has its own welcome, its own creatures and its own secrets. I will tell you when you enter one.
+  The Heartland: Green and gentle, the first land I made. Many crops grow wild here.
+  The Open Fields: The wind runs free across the Open Fields. Bison, wild tomatoes and corn.
+  The Elderwood: The Elderwood is old. Listen, and you will hear it breathe. Deer, boar, owls at night.
+  Silverbirch Vale: Pale trees stand like candles in Silverbirch Vale. Owls and wild herbs.
+  The Gloomwood: Light comes thin in the Gloomwood. Keep a torch close. Mandrake, nightshade, wraiths, the treant.
+  The Enchanted Glade: Here the Weave runs near the surface. Fairies dance where flowers bloom. Fairies, wisps, unicorns, starflowers.
+  Blossom Reach: Petals fall forever in Blossom Reach. Lavender, tea, red pandas.
+  Pinewatch: Tall pines keep watch over the cold paths. Ginseng, garlic, blueberries.
+  The Verdant Deep: Green upon green. The Verdant Deep hides a lost kingdom. Orichalcum below, jade, coffee, vipers.
+  The Whistling Thicket: The bamboo sings when the wind moves. Red pandas, tea, jade.
+  The Golden Steppe: Gold grass to the edge of the world. Bauxite, peridot, emberbloom.
+  The Sunscar Wastes: The sun is cruel here. Carry water, and respect the scorpion. Fossils, opal, sunstone, cotton, scorpions.
+  The Crimson Mesas: Red stone, layered like the pages of a book. Zinc runs rich below, wyverns above.
+  The Mirefen: The Mirefen keeps its secrets under green water. Fireflies, catfish, wraiths, nightshade.
+  The Rootmaze: Roots tangle like the threads of fate. Crabs and rice.
+  The High Meadows: Flowers climb the hills toward the peaks. Griffins circle, garnets below.
+  The Frostveil: White and silent. The cold here bites. Penguins, mammoths, moonstone, frost lilies.
+  The Rime Grove: Frost hangs from every needle. Mammoths and frost crystals.
+  The Snowfall Slopes: Snow piles deep on the slopes. Frost elementals at night.
+  The Skyfang Peaks: The peaks bite the sky. Storm crystals, griffins, the wyvern.
+  The Frozen Crown: Ice older than any city. The yeti walks here.
+  Stormcrown: Lightning loves Stormcrown. Storm crystals, tungsten below.
+  The Highlands: Wind and stone and long views. Tungsten, garnet, griffins.
+  The Sporelands: The ground here is alive, and it dreams. Glowcaps and quiet.
+  The Shellstrand: Waves count the grains of sand. Crabs, aquamarine, pineapples.
+  The Riverways: Rivers are the roads of the old world. Ducks, trout, carp.
+  The Endless Blue: The sea goes on and on. Tuna, jellyfish, sharks.
+  The Coral Reach: Color lives under the water here. Snapper, octopus, sardines.
+  The Abyssal Trench: Far below, something vast is singing. Whales, anglerfish, swordfish.
+  The Iceward Sea: The sea itself has frozen. Pike and penguins.
+  The Pale Garden: Grey trees with watchful eyes. Something creaks between the trunks.
+  The Hidden Garden: A garden under the world, lit by its own fruit. Life crystals, orichalcum, wisps.
+  The Fang Caverns: Stone teeth above and below. Earth crystals and earth elementals.
+  The Silent Deep: Do not speak here. Do not even breathe loudly. Earth crystals and ancient things.
+  The Ashen Realm: The fire beneath the world. Even the air burns. Cobalt, infernium, fire crystals, fire elementals.
+  The Ember Wastes: Red rock and rivers of fire. Infernium and fire elementals.
+  The Valley Of Souls: Blue fire, and voices in the sand. Soul crystals.
+  The Crimson Wood: A forest that bleeds. Fire crystals.
+  The Warped Wood: Strange blue trees, strangely calm. Endermen walk here.
+  The Cinder Delta: Black pillars and falling ash. The richest infernium.
+  The Hollow Sky: The edge of everything I made. Void crystals.
+
+THE THREE REALMS
+  Each realm is opened by its own key, forged at the Forge once learned, and used on its gate. A Home Gate waits where you arrive.
+  The Dreaming Isles: islands of aether grass floating in a bright sky. Fall from the edge and the Isles set you back gently.
+  The Hollow Deep: a vast cavern beneath the world, lit by crystal and deep moss, with old temples in the dark.
+  The Starfall Expanse: a field of fallen stars where every leap carries you far. Starmetal for its key falls only on meteor nights.
+
+CREATURES
+  Meet a creature and it is written in your Atlas. Many can be tamed with the food they love, and bred. Young ones sometimes differ
+  from their parents, and every creature with several kinds has one rare one. I will tell you when a rare one is near.
+  Deer (passive): lives in forest, birch, taiga, meadow, flower forest. Leaves venison, leather.
+  Boar (neutral): lives in forest, roofed, taiga. Leaves boar ham, leather.
+  Bison (neutral): lives in plains, savanna, meadow. Leaves bison steak, leather.
+  Mammoth (mount): lives in frozen, ice, snowy slopes, grove. Tame it with wheat or hay block. It can be ridden. Leaves mammoth tusk, leather.
+  Red Panda (passive): lives in bamboo, jungle, cherry grove. Tame it with sweet berries or strawberry.
+  Duck (passive): lives in river, swamp, plains. Leaves feather, duck meat.
+  Penguin (passive): lives in frozen, ice, cold. Leaves feather.
+  Crab (passive): lives in beach, mangrove swamp. Leaves shell, crab meat.
+  Desert Lizard (passive): lives in desert, mesa, savanna. Leaves beast scale.
+  Viper (hostile): lives in jungle, swamp, desert. Leaves beast scale.
+  Giant Scorpion (hostile): lives in desert, mesa, by night. Leaves beast scale, spider eye.
+  Owl (flyer): lives in forest, roofed, taiga, birch, by night. Leaves feather.
+  Crow (flyer): lives in plains, forest, taiga. Leaves feather.
+  Butterfly (flyer): lives in flower forest, meadow, plains, cherry grove.
+  Firefly (flyer): lives in swamp, forest, roofed, mangrove swamp, jungle, by night. Leaves glowstone dust.
+  Jellyfish (aquatic): lives in ocean, warm. Leaves slime ball.
+  Shark (hostile): lives in deep, ocean. Leaves beast scale, shark fin.
+  Whale (aquatic): lives in deep. Leaves ambergris.
+  Wisp (flyer): lives in flower forest, cherry grove, roofed, lush caves, by night. Tame it with starflower or glow berries. Leaves aether crystal, glowstone dust.
+  Fairy (flyer): lives in flower forest, cherry grove, meadow. Tame it with starflower or honey bottle. Leaves fairy dust.
+  Griffin (mount): lives in stony peaks, jagged peaks, meadow, mountains, extreme hills. Tame it with taming treat or mutton or beef. It can be ridden. Leaves griffin feather.
+  Unicorn (mount): lives in flower forest, cherry grove, meadow. Tame it with golden apple or golden carrot. It can be ridden. Leaves unicorn hair.
+  Fire Elemental (hostile): lives in nether wastes, basalt deltas. Leaves fire crystal, elemental core.
+  Frost Elemental (hostile): lives in frozen, ice, frozen peaks, snowy slopes, by night. Leaves frost crystal, elemental core.
+  Storm Elemental (hostile): lives in stony peaks, jagged peaks, extreme hills. Leaves storm crystal, elemental core.
+  Earth Elemental (hostile): lives in dripstone caves, deep dark. Leaves earth crystal, elemental core.
+  Goblin (hostile): lives in forest, taiga, roofed, plains, by night. Leaves copper coin, gold coin.
+  Wraith (hostile): lives in swamp, roofed, deep dark, soulsand valley, by night. Leaves ectoplasm.
+  Mimic (hostile): lives in places of its own. Leaves gold coin, ruby.
+  Treant (hostile): lives in roofed, forest, taiga. Leaves life crystal, oak sapling, elemental core.
+  Yeti (hostile): lives in frozen peaks, ice, snowy slopes, frozen. Leaves frost crystal, leather.
+  Crystal Golem (hostile): lives in lush caves, dripstone caves. Leaves aether crystal, amethyst shard.
+  The Crystal Colossus (boss): lives in places of its own. Leaves aether crystal, trophy crystal colossus.
+  The Infernal Titan (boss): lives in places of its own. Leaves infernium ingot, trophy infernal titan.
+  The Wyvern Queen (boss): lives in places of its own. Leaves wyvern scale, trophy wyvern queen.
+  Wyvern (hostile): lives in mesa, stony peaks, jagged peaks. Leaves beast scale.
+  The Unspoken (boss): lives in places of its own. Leaves trophy the unspoken, nether star.
+  Townsfolk (npc): lives in places of its own.
+  Helper Drone (helper): lives in places of its own.
+  Rover (vehicle): lives in places of its own. It can be ridden.
+  Airship (vehicle): lives in places of its own. It can be ridden.
+  Summoned Spirit (helper): lives in places of its own.
+
+THE GREAT ONES
+  Four great bosses sleep in Genesis, each called by a ritual. The Crystal Colossus shakes the earth and calls golems of crystal.
+  The Infernal Titan sets the ground aflame and rains fire. The Wyvern Queen strikes from the sky with her brood. And the last
+  I will not name here. Each grows desperate as it weakens, and each leaves a trophy and an artifact when it falls.
+  Dungeons you build keep a lesser boss in their deepest room.
+
+SEASONS, WEATHER AND NIGHT
+  Spring, summer, autumn and winter each last eight days. Crops grow best in their own season, slowly out of it, and not at all in
+  winter unless they are sheltered under glass.
+  Temperature, when turned on in the World Rules, warms you in deserts and the Nether and chills you in snowy lands. Warm clothes,
+  fire, hot drinks and the right armor protect you.
+  Blood moons bring more monsters, and better spoils. Meteor showers leave craters with starmetal at their hearts. Auroras dance in
+  cold skies and quicken mana. Wyverns cross the sky on some nights.
+
+FARMING
+  Wild crops grow in the regions. Gather them for seeds. Plant on farmland, and use a ripe crop to harvest and replant in one motion.
+  Fertile soil, fertilizer, sprinklers and glass houses all help. The crops of Genesis:
+  Tomato: grows in summer.
+  Corn: grows in summer.
+  Rice: grows in spring and summer.
+  Lettuce: grows in spring and autumn.
+  Onion: grows in spring and autumn.
+  Bell Pepper: grows in summer.
+  Strawberry: grows in spring.
+  Grapes: grows in summer and autumn.
+  Cabbage: grows in autumn and winter.
+  Soybean: grows in summer.
+  Cotton: grows in summer.
+  Tea Leaves: grows in spring.
+  Coffee Cherries: grows in summer and autumn.
+  Squash: grows in autumn.
+  Cucumber: grows in summer.
+  Garlic: grows in autumn and winter.
+  Hops: grows in summer and autumn.
+  Chili: grows in summer.
+  Blueberries: grows in summer.
+  Pineapple: grows in summer.
+  Basil: grows in spring and summer and autumn.
+  Mint: grows in spring and summer and autumn.
+  Sage: grows in spring and summer and autumn.
+  Lavender: grows in spring and summer and autumn.
+  Ginseng: grows in spring and summer and autumn.
+  Mandrake: grows in spring and summer and autumn.
+  Glowcap: grows in spring and summer and autumn.
+  Emberbloom: grows in spring and summer and autumn.
+  Frost Lily: grows in spring and summer and autumn.
+  Starflower: grows in spring and summer and autumn.
+  Nightshade: grows in spring and summer and autumn.
+  Moonpetal: grows in spring and summer and autumn.
+
+  Fruit trees: plant a sapling, and its leaves will bear fruit. Use the fruiting leaves to pick.
+  Apple: bears apple.
+  Orange: bears orange.
+  Lemon: bears lemon.
+  Cherries: bears cherry.
+  Peach: bears peach.
+  Coconut: bears coconut.
+  Banana: bears banana.
+  Plum: bears plum.
+
+FISHING
+  Cast a line or set a fishing net. What bites depends on where you fish.
+  Trout: rivers.
+  Bass: lakes and rivers.
+  Catfish: swamps.
+  Carp: rivers.
+  Tuna: the open ocean.
+  Swordfish: deep oceans.
+  Eel: dark waters.
+  Koi: calm waters.
+  Anglerfish: deep oceans at night.
+  Pike: cold rivers.
+  Sardine: warm seas.
+  Red Snapper: warm seas.
+  Golden Carp: anywhere, if you are lucky.
+  Crystal Fish: anywhere, very rarely.
+  Octopus: reefs.
+
+DISHES
+  Every dish fills you and grants a gift. The Master Chef perk makes them last twice as long.
+  Tomato Soup, at the Cooking Pot: tomato, tomato, onion, bowl. Grants regeneration for 8 seconds.
+  Garden Stew, at the Cooking Pot: cabbage, carrot, potato, onion, bowl. Grants health boost for 2 minutes.
+  Fried Rice, at the Cooking Pot: rice, egg, onion, soybean. Grants haste for 2 minutes.
+  Cornbread, at the Brick Oven: corn, corn, egg, milk bucket. Grants saturation for 1 seconds.
+  Garden Salad, at the Cutting Board: lettuce, tomato, cucumber. Grants speed for 2 minutes.
+  Fish Tacos, at the Cutting Board: corn, trout, lettuce, chili. Grants water breathing for 3 minutes.
+  Chili, at the Cooking Pot: chili, tomato, cooked beef, soybean, bowl. Grants fire resistance for 4 minutes, strength for 1 minute.
+  Sushi Platter, at the Cutting Board: rice, tuna, dried kelp, cucumber. Grants water breathing for 5 minutes, night vision for 5 minutes.
+  Berry Pie, at the Brick Oven: blueberry, strawberry, wheat, sugar, egg. Grants jump boost for 3 minutes.
+  Supreme Pizza, at the Brick Oven: wheat, tomato, cheese, bell pepper, cooked porkchop. Grants strength for 3 minutes, resistance for 1 minute.
+  Grilled Fish, at the Grill: bass, lemon. Grants regeneration for 6 seconds.
+  Seafood Paella, at the Cooking Pot: rice, octopus, sardine, bell pepper, garlic. Grants conduit power for 5 minutes.
+  Squash Soup, at the Cooking Pot: pumpkin squash, onion, milk bucket, bowl. Grants absorption 2 for 2 minutes.
+  Fruit Salad, at the Cutting Board: orange, banana, strawberry, grape, bowl. Grants speed 2 for 3 minutes.
+  Honey Cake, at the Brick Oven: wheat, honey bottle, egg, milk bucket, sugar. Grants regeneration 2 for 10 seconds.
+  Garlic Bread, at the Brick Oven: bread, garlic, basil. Grants resistance for 2 minutes.
+  Stuffed Peppers, at the Brick Oven: bell pepper, rice, cooked beef, tomato. Grants health boost 2 for 4 minutes.
+  Miner's Pasty, at the Brick Oven: wheat, cooked beef, potato, onion. Grants haste 2 for 5 minutes, night vision for 5 minutes.
+  Adventurer's Feast, at the Cooking Pot: cooked beef, cooked chicken, baked potato, cabbage, grape. Grants health boost 3 for 10 minutes, regeneration 2 for 20 seconds, strength for 5 minutes.
+  Sage Tea, at the Kettle: tea, sage, honey bottle, glass bottle. Grants night vision for 2 minutes.
+  Mint Tea, at the Kettle: tea, mint, glass bottle. Grants speed for 2 minutes.
+  Espresso, at the Kettle: coffee cherries, coffee cherries, glass bottle. Grants haste 2 for 3 minutes, speed for 3 minutes.
+  Lemonade, at the Kettle: lemon, sugar, glass bottle. Grants fire resistance for 2 minutes.
+  Hot Cocoa, at the Kettle: cocoa beans, milk bucket, sugar, glass bottle. Grants resistance for 1 minute.
+  Ginseng Broth, at the Cooking Pot: ginseng, cooked chicken, garlic, bowl. Grants regeneration 2 for 20 seconds, health boost 2 for 5 minutes.
+  Glowcap Risotto, at the Cooking Pot: rice, glowcap, onion, bowl. Grants night vision for 10 minutes.
+  Ember Curry, at the Cooking Pot: emberbloom, rice, chili, cooked chicken. Grants fire resistance for 10 minutes, strength 2 for 3 minutes.
+  Frost Sorbet, at the Cutting Board: frostlily, snowball, sugar, bowl. Grants speed 2 for 4 minutes.
+  Starlight Pudding, at the Brick Oven: starflower, milk bucket, egg, sugar. Grants slow falling for 5 minutes, night vision for 5 minutes.
+  Pineapple Skewer, at the Grill: pineapple, cooked porkchop, bell pepper, stick. Grants jump boost 2 for 4 minutes.
+
+PRESERVES
+  Made in the Fermentation Barrel over one day.
+  Wine, from grape: strength for 2 minutes, nausea for 6 seconds.
+  Mead, from honey bottle: regeneration for 10 seconds, resistance for 1 minute.
+  Ale, from hops: strength for 1 minute.
+  Pickles, from cucumber: saturation for 1 seconds.
+  Sauerkraut, from cabbage: health boost for 5 minutes.
+  Aged Cheese, from cheese: resistance for 2 minutes.
+  Fruit Jam, from strawberry: speed for 2 minutes.
+  Soy Sauce, from soybean: .
+  Cider, from apple: haste for 2 minutes.
+  Smoked Fish, from trout: water breathing for 2 minutes.
+
+TOWNS
+  Use a Town Charter where you wish a town to stand. A charter stone is set down and the land around it becomes yours. Use the stone
+  to see your town, rename it and call newcomers.
+  Folk arrive each day while there are free beds. Each has a calling: blacksmith, jeweler, engineer, scholar, hunter, guard, merchant, architect, farmer, miner, alchemist, mage, innkeeper, bard.
+  Speak with them to trade and to ask for their services. The architect will even build for you. The scholar teaches recipes.
+  Every town remembers how you treat it. Trade, finish bounties and defend it, and you will be offered better.
+  The Hollow Host raids growing towns in three waves. Walls, guards, traps, turrets and alarm bells help.
+  Merchant caravans pass between towns, and a Shop Counter lets others buy from you while you are away.
+  A town rises in rank as it gains beds, workplaces, defenses and shops within its borders:
+  Camp: where every town begins.
+  Hamlet: 3 beds, 1 workplaces.
+  Village: 6 beds, 3 workplaces.
+  Town: 12 beds, 6 workplaces, 2 defenses.
+  City: 20 beds, 10 workplaces, 4 defenses, 2 shops.
+  Kingdom: 32 beds, 16 workplaces, 6 defenses, 3 shops.
+
+DEFENSE
+  Spike Trap: hurts hostile things that step on it.
+  Flame Vent: sets them alight.
+  Alarm Bell: rings when danger comes within 14 blocks, and tells everyone nearby where.
+  Ward Stone: nothing hostile is born within 28 blocks of it.
+  Reinforced blocks are harder to break. Arrow Turrets and Ward Pylons need flux.
+
+WORLD RULES
+  In the Codex, under Settings, then World Rules, the keepers of a world may turn any of these on or off:
+  growing (levels, skills, perks, mana and daily tasks), elite monsters, rifts, loot chests in creations, magic, machines, firearms,
+  reactor meltdowns, new creatures, seasons, night wonders, raids, the realms, region arrivals, held torches lighting the way, and
+  whether survival creations cost their blocks. Temperature can be off, mild or harsh. You may choose to hear me as the Prophet, or
+  simply as Genesis. And you may choose whether everyone may create with /build, or only operators.
+
+LOOK AND LEARN
+  A line at the top of the screen tells you what you look upon: blocks, creatures, players and dropped items. Its name, where it
+  comes from, and what matters about it: hearts, whether it is tame or hostile, which way it faces, how grown it is, its power, how full
+  a chest is, how much flux a machine holds, what a display case keeps, a townsperson's calling, and the best tool.
+  /build look tells you once in chat. /build hud chat has me speak each new thing you look upon, which is kind to screen readers.
+  /build hud off hides the line.
+
+GENESIS THINGS
+  Seats: chairs, stools, benches, sofas, armchairs, the throne, the toilet and the bathtub. Use to sit, sneak to rise.
+  Storage of 27 stacks that keeps enchantments and names: fridges, cabinets, wardrobes, nightstands, desks, low bookshelves, crates,
+    sacks, the coffin and the mailbox.
+  Stove: cooks raw food you hold. Counter: hold an ingredient to make a quick meal. Sink: fills buckets and bottles.
+  TV: eight channels. Computer and control console: PixelOS with twelve apps, including Waypoints and Mail. Arcade: eight games.
+  Hologram table: a floating map of creatures and ores. Lamps of every kind switch on and off.
+  Piano, wall clock, crystal ball, bubbling cauldron, anchor, ship wheel, cannon, trash can, treasure pile and book stack each do
+    something. The words beneath every item's name say what.
+  Trophies are left by great foes. Set them on a pedestal or in a display case. The Curio Cabinet shows all you have collected.
+  In creative everything waits in the creative menu. In survival, items have recipes, and every Genesis block and piece of furniture
+    comes from a stonecutter.
+
+BLUEPRINTS
+  Copy an area:
+    Sneak and use the Genesis Wand on one corner block, then on the opposite corner.
+    Or look at a block and type /build corner 1, then look at the other corner and type /build corner 2.
+    Then /build copy myhouse. Add the word air to also copy empty space, so pasting clears room.
+  Paste it:
+    /build paste myhouse places it in front of you, facing the way you face.
+    Add rotate 90, rotate 180, rotate 270 (or left, right, around).
+    Add exact to line it up with north like the original, with its corner at your feet.
+    Add here to start right where you stand, up 5 or down 3 to move it, at X Y Z for exact coordinates.
+    Add clear to also place the air, instant to place it all at once, slow to watch it go up.
+  Build it yourself with the overlay (like Litematica):
+    /build overlay myhouse. Green sparkles show where blocks go, red dust marks wrong blocks.
+    A soft note plays at the closest missing block, so you can find it by sound.
+    The bar at the bottom of the screen says the next block, which way it faces, and how far ahead, left or right, up or down.
+    /build next says the same thing in chat and plays a chime at that spot.
+    /build check gives your progress in percent and lists what you still need.
+    /build fill layer places the rest of the layer you're on. /build overlay off stops.
+    Add quiet to turn off the notes. Overlay takes the same rotate, exact and here words as paste.
+  Materials:
+    /build materials myhouse lists every item you need, with stack counts.
+    /build supplies myhouse puts all of it in chests behind you.
+  Others: /build blueprints lists them, /build blueprint info myhouse, /build blueprint delete myhouse.
+  Copies are saved in the world. The book has a Blueprints and Pictures page with all of this as buttons.
+
+GENESIS STUDIO (pictures, 3D models and schematics)
+  Genesis Studio is a web page. Open Genesis_Studio.html (it works offline in Chrome or Edge). It has three steps: get Genesis, turn anything into blocks, send it to Minecraft.
+  3D models: OBJ (pick its .mtl and textures too), STL, GLB, glTF and MagicaVoxel VOX. Pick the size of the longest side, hollow or solid, and the model colors or one color.
+  Picture to blocks:
+    Choose a picture, pick Wall (stands up), Floor (lies flat, like map art) or 3D relief (brighter parts come toward you).
+    Pick the width in blocks, from 4 to 512. Pick which kinds of blocks to use.
+    Color blending: Crisp for pixel art, Smooth for photos. Turn on Pixel art source for sharp pixel art.
+    Press Make blueprint. It tells you the size, how many blocks, and the most used blocks.
+  Import a schematic: .litematic (Litematica), .schem (WorldEdit), .nbt (Java structure blocks), .mcstructure (Bedrock).
+    Java block names are changed to Bedrock ones, and stairs, doors, slabs, logs, beds, torches and lanterns keep their direction.
+  Your library: every blueprint you make goes here. Material list and Save list as text for each one.
+    Name the library, then press Save library pack. Open the .mcpack file and Minecraft imports it.
+    In your world settings, under Behavior Packs, turn on Genesis Library next to Genesis.
+    When the world loads, Genesis tells you how many blueprints it got. Then paste, overlay or list materials as above.
+    Saving again with the same library name updates the same pack.
+  If the Studio hands you a .zip instead, rename it to end in .mcpack.
+
+NEW PALETTES (71, say any of these as a material)
+  adobe, art deco, asphalt, aztec, azulejo, barnwood, black marble, bone, brass, candy, cedar,
+  celestial, chrome, circuit, cobble street, concrete, container, coral, corrugated, crystal,
+  dragon, dwarven, egyptian, elven, enchanted, flagstone, gingerbread, gothic, greek, green marble,
+  haunted, hull, ivy, jade, lacquer, limestone, log cabin, mahogany, maple, marble, neon,
+  painted wood, pearl, pink marble, plaster, red brick, roof tiles, runestone, rust, scifi lab,
+  shingles, shoji, slate, snow brick, steel, stucco, talavera, teak, terrazzo, thatch,
+  timber frame, travertine, velvet, victorian brick, void, wallpaper, walnut, white brick,
+  white concrete, yellow brick, zellige
+
+
+
+
+
+
+DETAIL LEVEL
+  simple: plain walls and roof, fastest.
+  normal (default): double walls with inside lining, floor trim, beams and lanterns, sills, foundation, bushes, entrance steps.
+  detailed or hd or highly detailed: all of that plus furniture in every room.
+  Change the default in the Codex under Settings.
+
+
+
+
+
+
+BUILDINGS AND SECTIONS
+  New buildings: manor, inn, bakery, blacksmith, library, school, hospital, fire station, police station, town hall, museum,
+    station, warehouse, factory, shop, cafe, apartment, hotel, observatory, greenhouse, fort, keep, palace, cathedral, mosque,
+    shrine, teahouse, lodge, villa, bungalow, farmhouse, stable, bank, lab, jail, townhouse and dungeon.
+  Each one gets a fitting shape, roof, rooms, furniture, storage and loot, with some variety every time.
+  Sections: add them with "with" or "and". Say "without" or "no" to remove one.
+    wings, towers, porch, balcony, chimney, columns, dome, spire, bell tower, minarets, battlements, garage, awning, sign,
+    smokestacks, silo, garden, big windows, tall windows, glass walls, double doors, grand entrance, open plan.
+  Shapes: L shaped, T shaped, U shaped, cross shaped, courtyard.
+  Roofs: gable, hip, mansard, pagoda, flat, terrace, dome, spire.
+  Houses, cottages, mansions and barns also take sections: "a house with a porch and a chimney", "an L shaped cottage".
+  Examples:
+    /build a manor with two wings and a balcony
+    /build a brick library with a dome
+    /build a U shaped school without a garage
+    /build a cathedral with minarets
+    /build a hotel with balconies and a sign
+    /build a huge dungeon
+  Dungeons: an underground maze of rooms joined by halls, with traps, decorations, monsters, treasure and a boss room.
+    A crypt on the surface leads down the stairs.
+
+
+
+
+
+
+SCREENS AND GAMES
+  TV channels: Genesis News (players and monsters nearby), Weather Channel, Nature Watch (the nearest animal), Cartoon Hour,
+    Cooking With Blocks (recipes), Sports Center, Space Today (moon and space facts), Music TV. Use the TV to flip channels.
+  PixelOS (computer and control console): Codex, Character, Quests, Market, Waypoints (save places and get directions),
+    Mail (leave messages for other players), Notes, Calculator, Radar, Day and weather, Music, Stopwatch.
+  Arcade: Trivia (a perfect score wins a coin), Blackjack, Echo (a memory game played with sounds), Slots (costs a gold coin),
+    Word Guess, Guess the number, Rock paper scissors, Dice.
+  Hologram table: a floating particle map of creatures and ores around it.
+
+
+
+
+
+
+FORMS (105)
+  tower: A round or eight sided tower with floors, windows, a ladder inside, and a cone roof. Default size 16.
+  wizard tower: A tall thin tower with a balcony and a steep pointed roof. Default size 18.
+  house: A house with windows, a door, a peaked roof, and a light inside. Add stories for more floors. Default size 14.
+  cottage: A small cozy house with a chimney. Default size 12.
+  mansion: A big two story house with a columned front porch. Default size 16.
+  barn: A tall red barn with a steep roof. Comes with farm animals. Default size 16.
+  church: A long hall with a bell tower at the front. Default size 14.
+  castle: Four corner towers, walls with battlements, a gate, a courtyard, and a central keep. Default size 20.
+  wall: A long wall with battlements and lit pillars. Default size 14.
+  gate: A rounded archway with a keystone. Default size 14.
+  bridge: An arched bridge with railings, lamps, and support posts, built straight ahead of you. Default size 14.
+  dome: A half sphere building with a window band and a door. Default size 14.
+  igloo: A snow dome with an entrance tunnel. Default size 12.
+  sphere: A full ball, hollow unless you say solid. Default size 14.
+  pyramid: A hollow pyramid with an entrance and stripes. Default size 18.
+  ziggurat: A stepped temple pyramid with a staircase up the front. Default size 18.
+  platform: A flat checkered floor with lights at the corners. Clears the space above it. Default size 14.
+  lighthouse: A striped round tower with a balcony and a glowing lamp room. Default size 16.
+  temple: A Greek style temple with steps, rows of columns, and a peaked roof. Default size 14.
+  pagoda: Stacked floors with wide flared roofs. Default size 16.
+  tree: A big leafy tree with branches. Big sizes get thick trunks and roots. Default size 14.
+  pine tree: A tall cone shaped evergreen. Default size 16.
+  christmas tree: A pine tree with ornaments, a glowing star, and presents. Default size 16.
+  palm tree: A curved trunk with drooping fronds and coconuts. Default size 14.
+  dead tree: Bare spooky branches. Default size 14.
+  cherry tree: A pink blossom tree. Default size 14.
+  mushroom: A giant spotted mushroom. Big ones are hollow houses with a door. Default size 14.
+  fountain: A round water basin with a spouting center bowl. Default size 12.
+  well: A stone well with water inside and a little roof. Default size 8.
+  pool: A swimming pool dug into the ground with lights in the walls. Default size 12.
+  maze: A random hedge maze. The entrance faces you and a light marks the exit. Default size 14.
+  skyscraper: A glass tower with a floor every 4 blocks and an antenna. Default size 16.
+  ship: A sailing ship with two masts, sails, and a captain's cabin. Default size 16.
+  heart: A standing heart shape. Default size 14.
+  star: A standing five point star. Default size 14.
+  nether portal: An obsidian portal frame. It lights itself if the game allows it. Default size 12.
+  volcano: A huge cone with a lava crater and glowing magma streams. Default size 20.
+  floating island: A grassy island floating in the sky with a tree on top. Default size 14.
+  crystals: A cluster of giant glowing crystal spikes. Default size 14.
+  road: A road with curbs, a center line, and street lamps, going straight ahead. Default size 14.
+  lamp post: A street lamp. Default size 12.
+  staircase: A walkable half step staircase going up ahead of you. Default size 14.
+  spiral staircase: Walkable half steps winding around a center column. Default size 14.
+  windmill: A square tower with four sails on the front. Default size 16.
+  arena: A round colosseum with arches, seating, and four gates. Default size 18.
+  gazebo: An open eight sided shelter with a pointed roof. Default size 12.
+  dock: A wooden pier on posts with a wide end. Default size 14.
+  snowman: Three snowballs with a face, buttons, arms, and a top hat. Default size 12.
+  rocket: A rocket with fins, windows, a nose cone, and a glowing engine. Default size 16.
+  tent: A camping tent with a campfire. Default size 10.
+  village: Four cottages around a well, with paths and lamps. Comes with villagers. Default size 13.
+  cube: A box room, hollow with windows unless you say solid. Default size 12.
+  cylinder: A round silo with a domed top. Default size 14.
+  cone: A cone or spire shape. Default size 14.
+  pillar: A column with a base and a capital. Default size 14.
+  obelisk: A tall tapering monument with a golden tip. Default size 16.
+  ring: A flat circle wall with lights. Default size 14.
+  donut: A giant frosted donut with sprinkles. Default size 12.
+  manor: A big country house with wings, a fancy roof, chimneys and a grand double door. Default size 16.
+  inn: A two or three story inn with a sign, balconies, a chimney, and a tavern inside. Default size 14.
+  bakery: A small shop with an awning, a sign, a chimney, and ovens inside. Default size 11.
+  blacksmith: A forge with a wide open side, a big chimney, an anvil and a grindstone. Default size 11.
+  library: Two floors of shelves with tall windows and a grand door. Default size 14.
+  school: A T shaped school with tall windows and a bell tower. Default size 16.
+  hospital: A U shaped hospital with bands of windows and beds inside. Default size 18.
+  fire station: A fire station with garage doors and a lookout tower. Default size 14.
+  police station: A police station with a sign and offices. Default size 14.
+  town hall: A town hall with columns, a bell tower and a grand door. Default size 16.
+  museum: A museum with columns, tall windows and maybe a dome. Default size 18.
+  station: A long train station with arched windows and a grand entrance. Default size 18.
+  warehouse: A tall warehouse with big doors. Default size 16.
+  factory: A factory with smokestacks, big doors and bands of windows. Default size 18.
+  shop: A little shop with an awning, a sign and a counter. Default size 10.
+  cafe: A cafe with an awning, a sign, tables, and a garden. Default size 10.
+  apartment: Four to six floors of apartments with balconies. Default size 14.
+  hotel: A tall hotel with bands of windows, a sign and a grand entrance. Default size 16.
+  observatory: A round domed observatory. Default size 12.
+  greenhouse: A glass house full of plants. Default size 12.
+  fort: A walled fort around a courtyard, with battlements and corner towers. Default size 20.
+  keep: A tall square keep with battlements and corner turrets. Default size 12.
+  palace: A palace with wings, towers, columns and domes. Default size 22.
+  cathedral: A cross shaped cathedral with a spire, front towers, arched windows and a bell. Default size 18.
+  mosque: A domed hall with four minarets and arched windows. Default size 16.
+  shrine: A small two tier shrine with a pagoda roof. Default size 9.
+  teahouse: A teahouse with a pagoda roof, a porch and a garden. Default size 10.
+  lodge: A mountain lodge with a steep roof, a balcony, a porch and a chimney. Default size 13.
+  villa: A modern L shaped villa with a roof terrace and a garden. Default size 15.
+  bungalow: A wide one story house with a hip roof and a porch. Default size 12.
+  farmhouse: A two story farmhouse with a porch, a chimney and maybe a silo. Default size 13.
+  stable: A long stable with stalls and a big door. Default size 14.
+  bank: A bank with columns and a vault of coins. Default size 14.
+  lab: A modern laboratory with bands of windows and tech inside. Default size 14.
+  jail: A stone jail with small windows and battlements. Default size 13.
+  townhouse: A tall narrow townhouse with a mansard roof. Default size 9.
+  dungeon: Rooms and corridors under the ground, full of monsters, treasure and a guardian boss, reached by stairs from a crypt. Default size 20.
+  mountain: A rugged peak with grassy slopes, scattered ore, spruce trees and a snow cap. Default size 24.
+  waterfall: A cliff with a river cut across its top that pours over the edge into a deep pool. Default size 14.
+  lake: A wide lake with a sandy shore, reeds, lily pads and a little lantern jetty. Default size 16.
+  statue: A great figure on a stone plinth, sword raised. Name a creature, like a statue of a horse or a dragon, and it takes that shape. Default size 14.
+  chess set: A great chessboard with both armies standing ready. Name one piece, like a giant chess rook or a black chess knight, and that piece stands alone. Default size 24.
+  car: A car with a glass cabin, four wheels, headlights and tail lights. Default size 12.
+  train: A steam engine with its cab and smokestack, on rails and sleepers. Default size 14.
+  airplane: An airplane with wings, a tail fin, windows and landing gear. Default size 16.
+  hot air balloon: A striped hot air balloon with its basket and chains. Default size 12.
+  ferris wheel: A great wheel of spokes and colorful cabins on its stand. Default size 16.
+
+SIZES
+  micro 5, tiny 6, mini 7, little 8, small 9, medium 14, big 20, huge 30, giant 38, massive 48, colossal 60, titanic 72, mega 80, ginormous 90, monumental 100, ultra 150, gargantuan 180, behemoth 200, max 256, life size 40
+  Or a number from 4 to 512 (about 1.6 million blocks at most). Also 30 tall, 20 wide, 3 stories, up 10, down 5. Words like biggest or tallest go extra big.
+
+OPTIONS
+  hollow: hollow, empty
+  solid: solid
+  ruined: ruined, ruins, ruin, broken, destroyed, abandoned, crumbling, damaged, old, broken, wrecked
+  mossy: mossy, overgrown, vines, vine, covered, weathered, moss
+  floating: floating, flying, sky, levitating, hovering, airborne
+  here: here, center, centered, around, me, on, me, under, me
+  behind: behind, backwards
+  taller: tall, taller, high, higher, towering
+  shorter: short, shorter, low, lower, squat, stubby
+  wider: wide, wider, fat, broad, thick, chunky
+  thinner: thin, thinner, narrow, skinny, slim, slender
+  bright: bright, glowing, lit, lights, lighted, brilliant, illuminated, shiny
+  dark: dark, unlit, dim, no, lights, lightless
+  nowindows: no, windows, windowless
+  rainbow: rainbow, rainbows, colorful, colourful, multicolor, multicolored
+  random: random, surprise, surprise, me, anything, whatever, randomize
+  fast: fast, instant, quick, quickly
+  slow: slow, slowly
+  noroof: no, roof, roofless, open, top
+  underground: underground, buried, subterranean, sunken, bunker, style
+  roofs: pointy, flat, domed, cone. shapes: round, square, octagon.
+
+EXTRAS
+  furnished, furniture, interior: furniture inside
+  realistic, detailed, doors: real doors and stair roofs
+  garden, flowers, yard: a flower ring (name flowers like poppy or cornflower to pick them)
+  fence: a fence around it (name one like oak fence to pick it)
+  moat: water around it
+  carpet: name a carpet like red carpet
+  lanterns, torches, candles, end rods: lights inside
+  beacon or bell: placed on top. campfire: out front
+  chest, loot, treasure: a chest inside
+  full of X or filled with X: X goes inside as furniture or items
+  no mobs, no windows, no roof, no lights: turn things off
+
+MOBS (79)
+  Say how many, like 5 cows. Fish go in water, farm animals go outside or in barns, pets and villagers go inside, golems guard outside. Hostile mobs only come if you name them.
+  cow: cow, cows, cattle, bull, bulls, ox, oxen, calf, calves, heifer, steer
+  sheep: sheep, lamb, lambs, ram, rams, ewe, ewes
+  pig: pig, pigs, piggy, piglet, piglets, hog, hogs, swine, boar
+  chicken: chicken, chickens, hen, hens, rooster, roosters, chick, chicks, poultry, fowl
+  horse: horse, horses, stallion, mare, pony, ponies, foal, steed
+  donkey: donkey, donkeys, burro
+  mule: mule, mules
+  llama: llama, llamas, alpaca, alpacas
+  trader llama: trader llama
+  goat: goat, goats, billy goat, kid goat
+  rabbit: rabbit, rabbits, bunny, bunnies, hare, hares
+  camel: camel, camels
+  sniffer: sniffer, sniffers
+  armadillo: armadillo, armadillos
+  turtle: turtle, turtles, tortoise
+  mooshroom: mooshroom, mooshrooms, mushroom cow
+  cat: cat, cats, kitty, kitten, kittens, kitties, feline
+  wolf: wolf, wolves, dog, dogs, puppy, puppies, pup, hound, hounds, doggy
+  parrot: parrot, parrots, bird, birds, macaw
+  fox: fox, foxes
+  ocelot: ocelot, ocelots, jaguar, leopard
+  panda: panda, pandas
+  polar bear: polar bear, bear, bears
+  bee: bee, bees, bumblebee, honeybee
+  allay: allay, allays, fairy mob
+  frog: frog, frogs, toad, toads
+  tadpole: tadpole, tadpoles
+  axolotl: axolotl, axolotls
+  cod: cod
+  salmon: salmon
+  tropical fish: fish, fishes, tropical fish, goldfish, clownfish
+  pufferfish: pufferfish, blowfish
+  squid: squid, squids, octopus
+  glow squid: glow squid
+  dolphin: dolphin, dolphins, porpoise
+  villager: villager, villagers, peasant, peasants, farmer, farmers, townsfolk, townspeople, villagefolk, people, residents, citizens
+  wandering trader: wandering trader, trader, merchant, merchants
+  iron golem: iron golem, golem, golems, guard, guards, guardian golem, knight, knights, soldier, soldiers, protector
+  snow golem: snow golem, snow golems
+  bat: bat, bats
+  strider: strider, striders
+  zombie: zombie, zombies, undead
+  husk: husk, husks, mummy, mummies
+  drowned: drowned
+  skeleton: skeleton, skeletons
+  stray: stray, strays
+  bogged: bogged
+  creeper: creeper, creepers
+  spider: spider, spiders
+  cave spider: cave spider
+  enderman: enderman, endermen
+  endermite: endermite
+  silverfish: silverfish
+  witch: witch mob, witches
+  pillager: pillager, pillagers, raider, raiders, bandit, bandits
+  vindicator: vindicator, vindicators
+  evoker: evoker, evokers, illager, illagers
+  ravager: ravager, ravagers
+  vex: vex, vexes
+  slime: slime mob, slimes
+  magma cube: magma cube, magma cubes
+  blaze: blaze, blazes
+  ghast: ghast, ghasts
+  piglin: piglin, piglins
+  piglin brute: piglin brute
+  zombified piglin: zombified piglin, zombie pigman, pigmen
+  hoglin: hoglin, hoglins
+  zoglin: zoglin, zoglins
+  wither skeleton: wither skeleton, wither skeletons
+  guardian: guardian mob, guardians
+  elder guardian: elder guardian
+  shulker: shulker, shulkers
+  phantom: phantom mob, phantoms
+  warden: warden
+  breeze: breeze mob, breezes
+  creaking: creaking
+  zombie villager: zombie villager
+  skeleton horse: skeleton horse
+  zombie horse: zombie horse
+
+MOBS THAT COME WITH BUILDS (say no mobs to skip)
+  barn: 2 cow, 2 pig, 3 chicken, 1 horse
+  village: 4 villager, 1 iron golem, 2 cat
+  castle: 2 iron golem, 2 villager
+  mansion: 1 cat, 1 wolf
+  cottage: 1 cat, 2 chicken
+  house: 1 cat
+  igloo: 1 fox
+  pool: 4 tropical fish
+  fountain: 3 tropical fish
+  pagoda: 1 panda
+  mushroom: 2 mooshroom
+  ship: 2 parrot
+  floating island: 2 sheep
+  volcano: 2 strider
+  church: 2 villager
+  windmill: 3 chicken, 2 sheep
+  palm tree: 1 parrot
+  tree: 2 bee
+  cherry tree: 3 bee
+  well: 1 villager
+  temple: 1 cat
+  tent: 1 wolf
+  wizard tower: 2 bat
+  lighthouse: 1 parrot
+  dock: 1 dolphin
+  snowman: 1 snow golem
+
+ALL 1027 BLOCKS BY TYPE (say any of these names)
+  Building blocks (300): acacia log, acacia planks, acacia wood, amethyst block, ancient debris, andesite, basalt, birch log, birch planks, birch wood, black concrete, black glazed terracotta, black terracotta, black wool, blackstone, blue concrete, blue glazed terracotta, blue ice, blue terracotta, blue wool, bone block, brain coral block, bricks, brown concrete, brown glazed terracotta, brown mushroom block, brown terracotta, brown wool, bubble coral block, calcite, carved pumpkin, chiseled deepslate, chiseled nether bricks, chiseled polished blackstone, chiseled quartz block, chiseled red sandstone, chiseled sandstone, chiseled stone bricks, clay, coal block, coal ore, coarse dirt, cobbled deepslate, cobblestone, copper block, copper ore, cracked deepslate bricks, cracked deepslate tiles, cracked nether bricks, cracked polished blackstone bricks, cracked stone bricks, crimson hyphae, crimson nylium, crimson planks, crimson stem, cut copper, cut red sandstone, cut sandstone, cyan concrete, cyan glazed terracotta, cyan terracotta, cyan wool, dark oak log, dark oak planks, dark oak wood, dark prismarine, dead brain coral block, dead bubble coral block, dead fire coral block, dead horn coral block, dead tube coral block, deepslate, deepslate bricks, deepslate coal ore, deepslate copper ore, deepslate diamond ore, deepslate emerald ore, deepslate gold ore, deepslate iron ore, deepslate lapis ore, deepslate redstone ore, deepslate tiles, diamond block, diamond ore, diorite, dirt, dirt path, dispenser, dripstone block, dropper, emerald block, emerald ore, end stone, end stone bricks, exposed copper, exposed cut copper, farmland, fire coral block, gilded blackstone, gold block, gold ore, granite, grass block, gray concrete, gray glazed terracotta, gray terracotta, gray wool, green concrete, green glazed terracotta, green terracotta, green wool, hay block, honey block, honeycomb block, horn coral block, iron block, iron ore, jungle log, jungle planks, jungle wood, lapis block, lapis ore, light blue concrete, light blue glazed terracotta, light blue terracotta, light blue wool, light gray concrete, light gray glazed terracotta, light gray terracotta, light gray wool, lime concrete, lime glazed terracotta, lime terracotta, lime wool, magenta concrete, magenta glazed terracotta, magenta terracotta, magenta wool, mangrove log, mangrove planks, mangrove wood, melon, moss block, mossy cobblestone, mossy stone bricks, mud, mud bricks, mushroom stem, mycelium, nether bricks, nether gold ore, nether quartz ore, nether wart block, netherite block, netherrack, oak log, oak planks, oak wood, obsidian, orange concrete, orange glazed terracotta, orange terracotta, orange wool, oxidized copper, oxidized cut copper, packed ice, packed mud, pink concrete, pink glazed terracotta, pink terracotta, pink wool, podzol, polished andesite, polished basalt, polished blackstone, polished blackstone bricks, polished deepslate, polished diorite, polished granite, prismarine, prismarine bricks, pumpkin, purple concrete, purple glazed terracotta, purple terracotta, purple wool, purpur block, purpur pillar, quartz block, quartz bricks, quartz pillar, raw copper block, raw gold block, raw iron block, red concrete, red glazed terracotta, red mushroom block, red nether bricks, red sandstone, red terracotta, red wool, redstone block, redstone ore, rooted dirt, sandstone, sculk, slime block, smooth basalt, smooth quartz, smooth red sandstone, smooth sandstone, smooth stone, snow block, soul sand, soul soil, sponge, spruce log, spruce planks, spruce wood, stone, stone bricks, stripped acacia log, stripped acacia wood, stripped birch log, stripped birch wood, stripped crimson hyphae, stripped crimson stem, stripped dark oak log, stripped dark oak wood, stripped jungle log, stripped jungle wood, stripped mangrove log, stripped mangrove wood, stripped oak log, stripped oak wood, stripped spruce log, stripped spruce wood, stripped warped hyphae, stripped warped stem, terracotta, tnt, tube coral block, tuff, warped hyphae, warped nylium, warped planks, warped stem, warped wart block, waxed copper block, waxed cut copper, waxed exposed copper, waxed exposed cut copper, waxed oxidized copper, waxed oxidized cut copper, waxed weathered copper, waxed weathered cut copper, weathered copper, weathered cut copper, wet sponge, white concrete, white glazed terracotta, white terracotta, white wool, yellow concrete, yellow glazed terracotta, yellow terracotta, yellow wool, cherry planks, cherry log, cherry wood, stripped cherry log, stripped cherry wood, bamboo planks, bamboo mosaic, bamboo block, stripped bamboo block, pale oak planks, pale oak log, pale oak wood, stripped pale oak log, stripped pale oak wood, pale moss block, creaking heart, tuff bricks, polished tuff, chiseled tuff, chiseled tuff bricks, chiseled copper, exposed chiseled copper, weathered chiseled copper, oxidized chiseled copper, copper grate, exposed copper grate, weathered copper grate, oxidized copper grate, waxed chiseled copper, waxed copper grate, resin block, resin bricks, chiseled resin bricks
+  Blocks that fall (floors only, walls swap to a solid version) (24): black concrete powder, blue concrete powder, brown concrete powder, chipped anvil, cyan concrete powder, damaged anvil, dragon egg, gravel, gray concrete powder, green concrete powder, light blue concrete powder, light gray concrete powder, lime concrete powder, magenta concrete powder, orange concrete powder, pink concrete powder, purple concrete powder, red concrete powder, red sand, sand, white concrete powder, yellow concrete powder, suspicious sand, suspicious gravel
+  Glass (18): black stained glass, blue stained glass, brown stained glass, cyan stained glass, glass, gray stained glass, green stained glass, light blue stained glass, light gray stained glass, lime stained glass, magenta stained glass, orange stained glass, pink stained glass, purple stained glass, red stained glass, tinted glass, white stained glass, yellow stained glass
+  Light blocks (9): crying obsidian, glowstone, magma block, redstone lamp, shroomlight, copper bulb, exposed copper bulb, weathered copper bulb, oxidized copper bulb
+  Leaves (11): acacia leaves, azalea leaves, birch leaves, dark oak leaves, flowering azalea leaves, jungle leaves, mangrove leaves, oak leaves, spruce leaves, cherry leaves, pale oak leaves
+  Furniture (placed inside) (32): anvil, barrel, bee nest, beehive, bell, blast furnace, bookshelf, brewing stand, cartography table, cauldron, chest, composter, crafting table, enchanting table, ender chest, fletching table, flower pot, furnace, grindstone, jukebox, lectern, lodestone, loom, note block, respawn anchor, smithing table, smoker, stonecutter, trapped chest, crafter, decorated pot, chiseled bookshelf
+  Flowers (garden) (28): allium, azure bluet, blue orchid, cornflower, dandelion, lily of the valley, orange tulip, oxeye daisy, pink tulip, poppy, potted allium, potted azure bluet, potted blue orchid, potted cornflower, potted dandelion, potted lily of the valley, potted orange tulip, potted oxeye daisy, potted pink tulip, potted poppy, potted red tulip, potted white tulip, potted wither rose, red tulip, white tulip, wither rose, pink petals, torchflower
+  Tall flowers (garden) (4): lilac, peony, rose bush, sunflower
+  Carpets (18): black carpet, blue carpet, brown carpet, cyan carpet, gray carpet, green carpet, light blue carpet, light gray carpet, lime carpet, magenta carpet, moss carpet, orange carpet, pink carpet, purple carpet, red carpet, white carpet, yellow carpet, pale moss carpet
+  Doors (14): acacia door, birch door, crimson door, dark oak door, iron door, jungle door, mangrove door, oak door, spruce door, warped door, cherry door, bamboo door, pale oak door, copper door
+  Panes (used as windows) (17): black stained glass pane, blue stained glass pane, brown stained glass pane, cyan stained glass pane, glass pane, gray stained glass pane, green stained glass pane, light blue stained glass pane, light gray stained glass pane, lime stained glass pane, magenta stained glass pane, orange stained glass pane, pink stained glass pane, purple stained glass pane, red stained glass pane, white stained glass pane, yellow stained glass pane
+  Fences and walls (used as a fence ring) (40): acacia fence, andesite wall, birch fence, blackstone wall, brick wall, cobbled deepslate wall, cobblestone wall, crimson fence, dark oak fence, deepslate brick wall, deepslate tile wall, diorite wall, end stone brick wall, granite wall, iron bars, jungle fence, mangrove fence, mossy cobblestone wall, mossy stone brick wall, mud brick wall, nether brick fence, nether brick wall, oak fence, polished blackstone brick wall, polished blackstone wall, polished deepslate wall, prismarine wall, red nether brick wall, red sandstone wall, sandstone wall, spruce fence, stone brick wall, warped fence, cherry fence, bamboo fence, pale oak fence, tuff wall, tuff brick wall, polished tuff wall, resin brick wall
+  Stairs (used for stair roofs) (58): acacia stairs, andesite stairs, birch stairs, blackstone stairs, brick stairs, cobbled deepslate stairs, cobblestone stairs, crimson stairs, cut copper stairs, dark oak stairs, dark prismarine stairs, deepslate brick stairs, deepslate tile stairs, diorite stairs, end stone brick stairs, exposed cut copper stairs, granite stairs, jungle stairs, mangrove stairs, mossy cobblestone stairs, mossy stone brick stairs, mud brick stairs, nether brick stairs, oak stairs, oxidized cut copper stairs, polished andesite stairs, polished blackstone brick stairs, polished blackstone stairs, polished deepslate stairs, polished diorite stairs, polished granite stairs, prismarine brick stairs, prismarine stairs, purpur stairs, quartz stairs, red nether brick stairs, red sandstone stairs, sandstone stairs, smooth quartz stairs, smooth red sandstone stairs, smooth sandstone stairs, spruce stairs, stone brick stairs, stone stairs, warped stairs, waxed cut copper stairs, waxed exposed cut copper stairs, waxed oxidized cut copper stairs, waxed weathered cut copper stairs, weathered cut copper stairs, cherry stairs, bamboo stairs, bamboo mosaic stairs, pale oak stairs, tuff stairs, tuff brick stairs, polished tuff stairs, resin brick stairs
+  Slabs (62): acacia slab, andesite slab, birch slab, blackstone slab, brick slab, cobbled deepslate slab, cobblestone slab, crimson slab, cut copper slab, cut red sandstone slab, cut sandstone slab, dark oak slab, dark prismarine slab, deepslate brick slab, deepslate tile slab, diorite slab, end stone brick slab, exposed cut copper slab, granite slab, jungle slab, mangrove slab, mossy cobblestone slab, mossy stone brick slab, mud brick slab, nether brick slab, oak slab, oxidized cut copper slab, petrified oak slab, polished andesite slab, polished blackstone brick slab, polished blackstone slab, polished deepslate slab, polished diorite slab, polished granite slab, prismarine brick slab, prismarine slab, purpur slab, quartz slab, red nether brick slab, red sandstone slab, sandstone slab, smooth quartz slab, smooth red sandstone slab, smooth sandstone slab, smooth stone slab, spruce slab, stone brick slab, stone slab, warped slab, waxed cut copper slab, waxed exposed cut copper slab, waxed oxidized cut copper slab, waxed weathered cut copper slab, weathered cut copper slab, cherry slab, bamboo slab, bamboo mosaic slab, pale oak slab, tuff slab, tuff brick slab, polished tuff slab, resin brick slab
+  Small lights (placed inside) (16): beacon, campfire, candle, end rod, glow lichen, jack o lantern, lantern, ochre froglight, pearlescent froglight, sea lantern, sea pickle, soul campfire, soul lantern, soul torch, torch, verdant froglight
+  Decorations (338): acacia button, acacia fence gate, acacia pressure plate, acacia sapling, acacia sign, acacia trapdoor, acacia wall sign, activator rail, amethyst cluster, attached melon stem, attached pumpkin stem, azalea, bamboo, bamboo sapling, beetroots, big dripleaf, big dripleaf stem, birch button, birch fence gate, birch pressure plate, birch sapling, birch sign, birch trapdoor, birch wall sign, black banner, black bed, black candle, black candle cake, black shulker box, black wall banner, blue banner, blue bed, blue candle, blue candle cake, blue shulker box, blue wall banner, brain coral, brain coral fan, brain coral wall fan, brown banner, brown bed, brown candle, brown candle cake, brown mushroom, brown shulker box, brown wall banner, bubble coral, bubble coral fan, bubble coral wall fan, cactus, cake, candle cake, carrots, cave vines, cave vines plant, chain, chorus flower, chorus plant, cobweb, cocoa, comparator, conduit, creeper head, creeper wall head, crimson button, crimson fence gate, crimson fungus, crimson pressure plate, crimson roots, crimson sign, crimson trapdoor, crimson wall sign, cyan banner, cyan bed, cyan candle, cyan candle cake, cyan shulker box, cyan wall banner, dark oak button, dark oak fence gate, dark oak pressure plate, dark oak sapling, dark oak sign, dark oak trapdoor, dark oak wall sign, daylight detector, dead brain coral, dead brain coral fan, dead brain coral wall fan, dead bubble coral, dead bubble coral fan, dead bubble coral wall fan, dead bush, dead fire coral, dead fire coral fan, dead fire coral wall fan, dead horn coral, dead horn coral fan, dead horn coral wall fan, dead tube coral, dead tube coral fan, dead tube coral wall fan, detector rail, dragon head, dragon wall head, dried kelp block, fern, fire coral, fire coral fan, fire coral wall fan, flowering azalea, frogspawn, grass, gray banner, gray bed, gray candle, gray candle cake, gray shulker box, gray wall banner, green banner, green bed, green candle, green candle cake, green shulker box, green wall banner, hanging roots, heavy weighted pressure plate, hopper, horn coral, horn coral fan, horn coral wall fan, iron trapdoor, jungle button, jungle fence gate, jungle pressure plate, jungle sapling, jungle sign, jungle trapdoor, jungle wall sign, kelp, kelp plant, ladder, large amethyst bud, large fern, lava cauldron, lever, light blue banner, light blue bed, light blue candle, light blue candle cake, light blue shulker box, light blue wall banner, light gray banner, light gray bed, light gray candle, light gray candle cake, light gray shulker box, light gray wall banner, light weighted pressure plate, lightning rod, lily pad, lime banner, lime bed, lime candle, lime candle cake, lime shulker box, lime wall banner, magenta banner, magenta bed, magenta candle, magenta candle cake, magenta shulker box, magenta wall banner, mangrove button, mangrove fence gate, mangrove pressure plate, mangrove propagule, mangrove roots, mangrove sign, mangrove trapdoor, mangrove wall sign, medium amethyst bud, melon stem, muddy mangrove roots, nether sprouts, nether wart, oak button, oak fence gate, oak pressure plate, oak sapling, oak sign, oak trapdoor, oak wall sign, observer, orange banner, orange bed, orange candle, orange candle cake, orange shulker box, orange wall banner, pink banner, pink bed, pink candle, pink candle cake, pink shulker box, pink wall banner, piston, player head, player wall head, pointed dripstone, polished blackstone button, polished blackstone pressure plate, potatoes, potted acacia sapling, potted azalea bush, potted bamboo, potted birch sapling, potted brown mushroom, potted cactus, potted crimson fungus, potted crimson roots, potted dark oak sapling, potted dead bush, potted fern, potted flowering azalea bush, potted jungle sapling, potted mangrove propagule, potted oak sapling, potted red mushroom, potted spruce sapling, potted warped fungus, potted warped roots, powder snow cauldron, powered rail, pumpkin stem, purple banner, purple bed, purple candle, purple candle cake, purple shulker box, purple wall banner, rail, red banner, red bed, red candle, red candle cake, red mushroom, red shulker box, red wall banner, redstone torch, redstone wall torch, redstone wire, repeater, scaffolding, sculk catalyst, sculk sensor, sculk shrieker, sculk vein, seagrass, shulker box, skeleton skull, skeleton wall skull, small amethyst bud, small dripleaf, snow, soul wall torch, spore blossom, spruce button, spruce fence gate, spruce pressure plate, spruce sapling, spruce sign, spruce trapdoor, spruce wall sign, sticky piston, stone button, stone pressure plate, sugar cane, sweet berry bush, tall grass, tall seagrass, target, tripwire, tripwire hook, tube coral, tube coral fan, tube coral wall fan, turtle egg, twisting vines, twisting vines plant, vine, wall torch, warped button, warped fence gate, warped fungus, warped pressure plate, warped roots, warped sign, warped trapdoor, warped wall sign, water cauldron, weeping vines, weeping vines plant, wheat, white banner, white bed, white candle, white candle cake, white shulker box, white wall banner, wither skeleton skull, wither skeleton wall skull, yellow banner, yellow bed, yellow candle, yellow candle cake, yellow shulker box, yellow wall banner, zombie head, zombie wall head, cherry fence gate, cherry trapdoor, cherry button, cherry pressure plate, cherry sapling, bamboo fence gate, bamboo trapdoor, pale oak fence gate, pale oak trapdoor, pale hanging moss, open eyeblossom, closed eyeblossom, copper trapdoor, resin clump, heavy core, calibrated sculk sensor, sniffer egg, pitcher plant
+  Liquids (2): lava, water
+  Avoided (8): ice, infested chiseled stone bricks, infested cobblestone, infested cracked stone bricks, infested deepslate, infested mossy stone bricks, infested stone, infested stone bricks
+  Technical blocks the builder will not place (28): air, barrier, bedrock, bubble column, budding amethyst, cave air, chain command block, command block, end gateway, end portal, end portal frame, fire, frosted ice, jigsaw, light, moving piston, nether portal, piston head, powder snow, reinforced deepslate, repeating command block, soul fire, spawner, structure block, structure void, void air, trial spawner, vault
+
+ALL 282 ITEMS (they go in a chest)
+  redstone, saddle, minecart, chest minecart, furnace minecart, tnt minecart, hopper minecart, carrot on a stick, warped fungus on a stick, elytra, oak boat, oak chest boat, spruce boat, spruce chest boat, birch boat, birch chest boat, jungle boat, jungle chest boat, acacia boat, acacia chest boat, dark oak boat, dark oak chest boat, mangrove boat, mangrove chest boat, turtle helmet, scute, flint and steel, apple, bow, arrow, coal, charcoal, diamond, emerald, lapis lazuli, quartz, amethyst shard, raw iron, iron ingot, raw copper, copper ingot, raw gold, gold ingot, netherite ingot, netherite scrap, wooden sword, wooden shovel, wooden pickaxe, wooden axe, wooden hoe, stone sword, stone shovel, stone pickaxe, stone axe, stone hoe, golden sword, golden shovel, golden pickaxe, golden axe, golden hoe, iron sword, iron shovel, iron pickaxe, iron axe, iron hoe, diamond sword, diamond shovel, diamond pickaxe, diamond axe, diamond hoe, netherite sword, netherite shovel, netherite pickaxe, netherite axe, netherite hoe, stick, bowl, mushroom stew, string, feather, gunpowder, wheat seeds, bread, leather helmet, leather chestplate, leather leggings, leather boots, chainmail helmet, chainmail chestplate, chainmail leggings, chainmail boots, iron helmet, iron chestplate, iron leggings, iron boots, diamond helmet, diamond chestplate, diamond leggings, diamond boots, golden helmet, golden chestplate, golden leggings, golden boots, netherite helmet, netherite chestplate, netherite leggings, netherite boots, flint, porkchop, cooked porkchop, painting, golden apple, enchanted golden apple, bucket, water bucket, lava bucket, powder snow bucket, snowball, leather, milk bucket, pufferfish bucket, salmon bucket, cod bucket, tropical fish bucket, axolotl bucket, tadpole bucket, brick, clay ball, paper, book, slime ball, egg, compass, recovery compass, fishing rod, clock, spyglass, glowstone dust, cod, salmon, tropical fish, pufferfish, cooked cod, cooked salmon, ink sac, glow ink sac, cocoa beans, white dye, orange dye, magenta dye, light blue dye, yellow dye, lime dye, pink dye, gray dye, light gray dye, cyan dye, purple dye, blue dye, brown dye, green dye, red dye, black dye, bone meal, bone, sugar, cookie, filled map, shears, melon slice, dried kelp, pumpkin seeds, melon seeds, beef, cooked beef, chicken, cooked chicken, rotten flesh, ender pearl, blaze rod, ghast tear, gold nugget, potion, glass bottle, spider eye, fermented spider eye, blaze powder, magma cream, ender eye, glistering melon slice, experience bottle, fire charge, writable book, written book, item frame, glow item frame, carrot, potato, baked potato, poisonous potato, map, golden carrot, nether star, pumpkin pie, firework rocket, firework star, enchanted book, nether brick, prismarine shard, prismarine crystals, rabbit, cooked rabbit, rabbit stew, rabbit foot, rabbit hide, armor stand, iron horse armor, golden horse armor, diamond horse armor, leather horse armor, lead, name tag, mutton, cooked mutton, end crystal, chorus fruit, popped chorus fruit, beetroot, beetroot seeds, beetroot soup, dragon breath, splash potion, spectral arrow, tipped arrow, lingering potion, shield, totem of undying, shulker shell, iron nugget, music disc 13, music disc cat, music disc blocks, music disc chirp, music disc far, music disc mall, music disc mellohi, music disc stal, music disc strad, music disc ward, music disc 11, music disc wait, music disc otherside, music disc 5, music disc pigstep, disc fragment 5, trident, phantom membrane, nautilus shell, heart of the sea, crossbow, suspicious stew, flower banner pattern, creeper banner pattern, skull banner pattern, mojang banner pattern, globe banner pattern, piglin banner pattern, goat horn, sweet berries, glow berries, honeycomb, honey bottle, echo shard, bundle, command block minecart, knowledge book, debug stick, mace, brush, wind charge, breeze rod, heavy core
+
+
+WHAT GENESIS STUDIO CAN READ
+  Genesis Studio looks inside a file to learn what it is, so even a file with the wrong name or no name at all is understood.
+  Pictures and photos: PNG, JPG, GIF, WebP, BMP, ICO, SVG, AVIF, TIFF, Photoshop PSD, Targa TGA, QOI and Netpbm. HEIC photos open where the browser allows it.
+  3D models: OBJ with its materials and textures, STL, GLB, glTF, PLY with colors, OFF, 3MF, Collada DAE, Blockbench bbmodel, Bedrock geometry and MagicaVoxel VOX.
+  Schematics: Litematica, WorldEdit schem, old MCEdit schematic files from before 1.13, Java structure nbt and Bedrock mcstructure, and mcfunction files full of setblock and fill commands.
+  Videos: MP4, WebM, MOV and more give you five moments to choose from. Music and sounds: MP3, WAV, OGG, FLAC and others become a picture of how they sound. MIDI music becomes a piano roll.
+  Documents: every page of a PDF. Word and PowerPoint files give up their pictures and their writing. Spreadsheets and CSV tables become bar charts. Plain writing becomes a sign, and Studio offers it to you as a /build description too.
+  Archives: zip, tar and gzip are opened and searched, and so are add on packs, so a pack full of structures lists every one. Fonts become a sample sign.
+  Anything else becomes a pattern of its own bytes in color, because every file has a shape.
+  When a file holds many things, Studio lists them all and lets you choose.
+
+
+SCULPTURES FROM PICTURES
+  In Genesis Studio, choose a picture, then choose Sculpture under How it stands. The Studio learns the background from the edges of
+  the picture, finds the subject that stands apart from it, and rounds that outline into a full statue: thick where the subject is broad,
+  thin where it is slender, with light and shadow pressed into the surface. Choose how thick (slim, natural or round), how much surface
+  detail, and hollow or solid. It works best with one subject on a plain or softly lit background, like a statue, a figure or a creature.
+  Leave out the background works for flat pictures too.
+
+SPEAKING IN OTHER TONGUES
+  Speak to me in your own tongue and I will understand. /build un château bleu, /build 大きな赤い城, /build ein großes Haus mit Garten.
+  Japanese, Chinese and Korean need no spaces. Choose a language and I will also speak it in the Codex and in my most common words.
+  /build words tells you how many words I know.
+
+WHAT GENESIS STUDIO CAN READ
+  Genesis Studio looks inside a file to learn what it is, so even a file with the wrong name or no name at all is understood.
+  Pictures and photos: PNG, JPG, GIF, WebP, BMP, ICO, SVG, AVIF, TIFF, Photoshop PSD, Targa TGA, QOI and Netpbm. HEIC photos open where the browser allows it.
+  3D models: OBJ with its materials and textures, STL, GLB, glTF, PLY with colors, OFF, 3MF, Collada DAE, Blockbench bbmodel, Bedrock geometry and MagicaVoxel VOX.
+  Schematics: Litematica, WorldEdit schem, old MCEdit schematic files from before 1.13, Java structure nbt and Bedrock mcstructure, and mcfunction files full of setblock and fill commands.
+  Videos: MP4, WebM, MOV and more give you five moments to choose from. Music and sounds: MP3, WAV, OGG, FLAC and others become a picture of how they sound. MIDI music becomes a piano roll.
+  Documents: every page of a PDF. Word and PowerPoint files give up their pictures and their writing. Spreadsheets and CSV tables become bar charts. Plain writing becomes a sign, and Studio offers it to you as a /build description too.
+  Archives: zip, tar and gzip are opened and searched, and so are add on packs, so a pack full of structures lists every one. Fonts become a sample sign.
+  Anything else becomes a pattern of its own bytes in color, because every file has a shape.
+  When a file holds many things, Studio lists them all and lets you choose.
+
+
+SCULPTURES FROM PICTURES
+  In Genesis Studio, choose a picture, then choose Sculpture under How it stands. The Studio learns the background from the edges of
+  the picture, finds the subject that stands apart from it, and rounds that outline into a full statue: thick where the subject is broad,
+  thin where it is slender, with light and shadow pressed into the surface. Choose how thick (slim, natural or round), how much surface
+  detail, and hollow or solid. It works best with one subject on a plain or softly lit background, like a statue, a figure or a creature.
+  Leave out the background works for flat pictures too.
+
+SPEAKING IN OTHER TONGUES
+  Speak to me in your own tongue and I will understand. /build un château bleu, /build 大きな赤い城, /build ein großes Haus mit Garten.
+  Japanese, Chinese and Korean need no spaces. Choose a language and I will also speak it in the Codex and in my most common words.
+  /build words tells you how many words I know.
+
+WHAT GENESIS STUDIO CAN READ
+  Genesis Studio looks inside a file to learn what it is, so even a file with the wrong name or no name at all is understood.
+  Pictures and photos: PNG, JPG, GIF, WebP, BMP, ICO, SVG, AVIF, TIFF, Photoshop PSD, Targa TGA, QOI and Netpbm. HEIC photos open where the browser allows it.
+  3D models: OBJ with its materials and textures, STL, GLB, glTF, PLY with colors, OFF, 3MF, Collada DAE, Blockbench bbmodel, Bedrock geometry and MagicaVoxel VOX.
+  Schematics: Litematica, WorldEdit schem, old MCEdit schematic files from before 1.13, Java structure nbt and Bedrock mcstructure, and mcfunction files full of setblock and fill commands.
+  Videos: MP4, WebM, MOV and more give you five moments to choose from. Music and sounds: MP3, WAV, OGG, FLAC and others become a picture of how they sound. MIDI music becomes a piano roll.
+  Documents: every page of a PDF. Word and PowerPoint files give up their pictures and their writing. Spreadsheets and CSV tables become bar charts. Plain writing becomes a sign, and Studio offers it to you as a /build description too.
+  Archives: zip, tar and gzip are opened and searched, and so are add on packs, so a pack full of structures lists every one. Fonts become a sample sign.
+  Anything else becomes a pattern of its own bytes in color, because every file has a shape.
+  When a file holds many things, Studio lists them all and lets you choose.
+
+
+SCULPTURES FROM PICTURES
+  In Genesis Studio, choose a picture, then choose Sculpture under How it stands. The Studio learns the background from the edges of
+  the picture, finds the subject that stands apart from it, and rounds that outline into a full statue: thick where the subject is broad,
+  thin where it is slender, with light and shadow pressed into the surface. Choose how thick (slim, natural or round), how much surface
+  detail, and hollow or solid. It works best with one subject on a plain or softly lit background, like a statue, a figure or a creature.
+  Leave out the background works for flat pictures too.
+
+SPEAKING IN OTHER TONGUES
+  Speak to me in your own tongue and I will understand. /build un château bleu, /build 大きな赤い城, /build ein großes Haus mit Garten.
+  Japanese, Chinese and Korean need no spaces. Choose a language and I will also speak it in the Codex and in my most common words.
+  /build words tells you how many words I know.
+
+WHAT GENESIS STUDIO CAN READ
+  Genesis Studio looks inside a file to learn what it is, so even a file with the wrong name or no name at all is understood.
+  Pictures and photos: PNG, JPG, GIF, WebP, BMP, ICO, SVG, AVIF, TIFF, Photoshop PSD, Targa TGA, QOI and Netpbm. HEIC photos open where the browser allows it.
+  3D models: OBJ with its materials and textures, STL, GLB, glTF, PLY with colors, OFF, 3MF, Collada DAE, Blockbench bbmodel, Bedrock geometry and MagicaVoxel VOX.
+  Schematics: Litematica, WorldEdit schem, old MCEdit schematic files from before 1.13, Java structure nbt and Bedrock mcstructure, and mcfunction files full of setblock and fill commands.
+  Videos: MP4, WebM, MOV and more give you five moments to choose from. Music and sounds: MP3, WAV, OGG, FLAC and others become a picture of how they sound. MIDI music becomes a piano roll.
+  Documents: every page of a PDF. Word and PowerPoint files give up their pictures and their writing. Spreadsheets and CSV tables become bar charts. Plain writing becomes a sign, and Studio offers it to you as a /build description too.
+  Archives: zip, tar and gzip are opened and searched, and so are add on packs, so a pack full of structures lists every one. Fonts become a sample sign.
+  Anything else becomes a pattern of its own bytes in color, because every file has a shape.
+  When a file holds many things, Studio lists them all and lets you choose.
+
+CREDITS
+  Genesis is a world by PixelProphetOG.
+  In the beginning there was the word, and the word was /build.

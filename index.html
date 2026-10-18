@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self' data:; img-src 'self' data: blob:; media-src 'self' data: blob:; worker-src 'self' blob:; connect-src 'self' https://*.supabase.co wss://*.supabase.co; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Genesis Studio</title>
+<meta name="description" content="Turn pictures, photos, 3D models and schematics into blueprints that Genesis builds in Minecraft Bedrock. Free, with an optional account. By PixelProphetOG.">
+<meta name="author" content="PixelProphetOG">
+<meta name="theme-color" content="#5a3aa2">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Genesis">
+<meta property="og:title" content="Genesis Studio">
+<meta property="og:description" content="Speak it, and it is built. Turn anything into Minecraft blueprints.">
+<meta property="og:image" content="icon-512.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<a class="skip" href="#h2s">Skip to making a blueprint</a>
+
+
+<div class="wrap">
+<header>
+  <h1 class="mark">GENE<span>SIS</span></h1>
+  <p class="tag">Speak it, and it is built.</p>
+  <p>Genesis is a Minecraft Bedrock add on that builds whatever you describe, and Version 7 turns your world into a living story: a ten act Chronicle told by the Prophet, sixteen metals and a Forge, a grammar of magic, machines and flux, forty two creatures, three realms, farms and kitchens, and towns that grow into kingdoms. This studio turns pictures, 3D models and schematics into blueprints that Genesis builds for you, block by block.</p>
+  <p class="by">Made by <strong>PixelProphetOG</strong></p>
+  <nav class="topnav" aria-label="Genesis Studio">
+    <a href="#h2s">Make a blueprint</a>
+    <a href="#libHead">My library</a>
+    <a href="#account" id="acctLink">Account, optional</a>
+    <a href="#useApp">Use it as an app</a>
+  </nav>
+  <p id="acctStatus" class="by" hidden></p>
+</header>
+
+<main class="wrap">
+<section id="getMod" aria-labelledby="h1s">
+  <h2 id="h1s"><span class="n">1</span> Get Genesis</h2>
+  <p class="lead">Download Genesis and open it. Minecraft opens and installs it. Then make or edit a world, and under Behavior Packs turn on Genesis. Type <code>/build</code> and describe anything.</p>
+  <div><a class="button" id="modBtn" href="Genesis.mcaddon" download="Genesis.mcaddon">Download Genesis</a></div>
+</section>
+
+<section aria-labelledby="h2s">
+  <h2 id="h2s"><span class="n">2</span> Turn anything into blocks</h2>
+  <div class="drop" id="drop">
+    <p><strong>Drop a file here</strong>, or</p>
+    <input type="file" id="file" multiple>
+    <label class="big" for="file">Choose a file</label>
+    <p class="types">Almost any file. Pictures and photos of every common kind (PNG, JPG, GIF, WebP, BMP, ICO, SVG, AVIF, TIFF, Photoshop PSD, Targa, QOI, Netpbm), 3D models (OBJ, STL, GLB, glTF, PLY, OFF, 3MF, Collada, Blockbench, Bedrock geometry, MagicaVoxel), schematics (Litematica, WorldEdit, old MCEdit schematics, structure files, mcstructure) and Minecraft command files. Videos give you five moments to choose from. Music and sounds become pictures of how they sound. PDFs give you each page. Zip, tar and gzip archives, add on packs and Office documents are opened and searched. Fonts, spreadsheets and plain writing work too, and anything else becomes a pattern of its own colors. For an OBJ with colors, choose its .mtl and texture files at the same time.</p>
+    <div class="row"><button type="button" class="ghost" id="samplePic">Try a sample picture</button><button type="button" class="ghost" id="sampleModel">Try a sample 3D model</button></div>
+  </div>
+
+  <div id="choices" hidden role="group" aria-label="Things found in your file" class="choices"></div>
+  <div id="options" hidden>
+    <div class="stack">
+      <p id="found" aria-live="polite"></p>
+      <div id="promptBox" hidden><label for="promptText">This writing could also be spoken to Genesis in the game:</label><div class="row"><input type="text" id="promptText" readonly class="grow"><button type="button" class="ghost" id="copyPrompt">Copy</button></div></div>
+      <fieldset data-for="picture">
+        <legend>How it stands</legend>
+        <label class="radio"><input type="radio" name="mode" id="mWall" value="wall" checked><span>Wall<small>Stands up and faces you</small></span></label>
+        <label class="radio"><input type="radio" name="mode" id="mFloor" value="floor"><span>Floor<small>Lies flat, best for very big pictures and map art</small></span></label>
+        <label class="radio"><input type="radio" name="mode" id="mRelief" value="relief"><span>3D wall<small>A wall with depth, brighter parts come toward you</small></span></label>
+        <label class="radio"><input type="radio" name="mode" id="mSculpt" value="sculpt"><span>Sculpture<small>Finds the main subject, leaves the background behind, and shapes it into a full 3D statue you can walk around</small></span></label>
+        <label class="check" for="cutBg"><input type="checkbox" id="cutBg"><span>Leave out the background<small>Keeps only the main subject, for any of these</small></span></label>
+        <div class="row" id="sculptRow">
+          <label for="sculptDepth">How thick<select id="sculptDepth"><option value="0.55">Slim</option><option value="1" selected>Natural</option><option value="1.4">Round and full</option></select></label>
+          <label for="sculptDetail">Surface detail<select id="sculptDetail"><option value="0">Smooth</option><option value="1" selected>Some</option><option value="2.2">Strong</option></select></label>
+          <label for="sculptInside">Inside<select id="sculptInside"><option value="hollow">Hollow, fewer blocks</option><option value="solid">Solid</option></select></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend id="sizeLegend">Size</legend>
+        <div class="row" data-for="picture"><button type="button" class="preset" data-v="48">Small 48</button><button type="button" class="preset" data-v="96">Medium 96</button><button type="button" class="preset" data-v="160">Large 160</button><button type="button" class="preset" data-v="256">Huge 256</button></div>
+        <div class="row" data-for="model"><button type="button" class="preset" data-v="24">Small 24</button><button type="button" class="preset" data-v="48">Medium 48</button><button type="button" class="preset" data-v="96">Large 96</button><button type="button" class="preset" data-v="160">Huge 160</button></div>
+        <div class="row" data-for="vox"><button type="button" class="preset" data-v="1">Actual size</button><button type="button" class="preset" data-v="2">Double</button><button type="button" class="preset" data-v="3">Triple</button></div>
+        <label data-for="picture model vox" for="size">Or type a number<input type="number" id="size" min="1" max="512" value="96"></label>
+        <p data-for="schematic" class="lead">Schematics keep their real size.</p>
+      </fieldset>
+      <div class="row">
+        <label data-for="picture" for="colors">Colors<select id="colors"><option value="photo">Best for photos</option><option value="pixel">Best for pixel art</option><option value="flat">Plain color matching</option></select></label>
+        <label data-for="model" for="coloring">Colors<select id="coloring"><option value="model">Use the model's colors</option><option value="one">All one color</option></select></label>
+        <label data-for="model" id="oneColorRow" for="oneColor" hidden>Color<input type="color" id="oneColor" value="#b8b8b8"></label>
+        <label data-for="model" for="fill">Inside<select id="fill"><option value="hollow">Hollow, fewer blocks</option><option value="solid">Solid</option></select></label>
+        <label data-for="schematic" class="check" for="keepAir"><input type="checkbox" id="keepAir"><span>Keep the air<small>Pasting with the word clear empties the space first</small></span></label>
+      </div>
+      <label for="name">Name<small>What you'll type in game, like /build paste dragon</small><input type="text" id="name" placeholder="dragon"></label>
+      <details>
+        <summary>More options</summary>
+        <div>
+          <div class="row" data-for="picture">
+            <label for="depth">3D depth in blocks<input type="number" id="depth" min="2" max="32" value="8"></label>
+            <label for="forward">What comes forward<select id="forward"><option value="bright">Brighter parts</option><option value="dark">Darker parts</option></select></label>
+            <label class="check" for="clear"><input type="checkbox" id="clear" checked><span>Leave see-through parts empty</span></label>
+          </div>
+          <div class="row" data-for="model">
+            <label for="up">Which way is up<select id="up"><option value="auto">Automatic</option><option value="y">Y is up</option><option value="z">Z is up</option><option value="x">X is up</option></select></label>
+            <label for="turn">Turn it<select id="turn"><option value="0">Facing you</option><option value="1">Quarter turn</option><option value="2">Half turn</option><option value="3">Three quarter turn</option></select></label>
+          </div>
+          <fieldset data-for="picture model vox">
+            <legend>Blocks to use</legend>
+            <div class="groups" id="groups"></div>
+            <label class="check" for="smooth"><input type="checkbox" id="smooth" checked><span>Prefer smooth blocks<small>Plain blocks win over busy textures when the colors are close</small></span></label>
+          </fieldset>
+        </div>
+      </details>
+      <canvas id="preview" hidden role="img" aria-label="Preview"></canvas>
+      <p id="result" class="result"></p>
+      <p id="warn" class="warn"></p>
+      <div><button type="button" id="addBtn" disabled>Add to my library</button></div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="libHead">
+  <h2 id="libHead"><span class="n">3</span> Send it to Minecraft <small class="meta" id="libCount"></small></h2>
+  <p id="libEmpty" class="lead">Your library is empty. Add something in step 2.</p>
+  <ul class="lib" id="libList"></ul>
+  <label for="libName">Library name<small>Saving again with the same name updates the same pack</small><input type="text" id="libName" value="My Builds"></label>
+  <div><button type="button" id="packBtn" disabled>Save to Minecraft</button></div>
+  <ol class="steps">
+    <li>Open the saved <code>.mcpack</code> file. Minecraft imports it.</li>
+    <li>In your world settings, under Behavior Packs, turn on <strong>Genesis Library</strong> next to Genesis.</li>
+    <li>Load the world. Genesis says how many blueprints arrived.</li>
+    <li><code>/build paste name</code> builds one in front of you. <code>/build overlay name</code> guides you block by block. <code>/build materials name</code> lists what you need.</li>
+  </ol>
+</section>
+<section id="account" aria-labelledby="h4s">
+  <h2 id="h4s"><span class="n">4</span> Your account <small class="meta">optional</small></h2>
+  <p class="lead">You never need an account. Everything on this page works without one, and your library stays on this device. A free account also keeps your library safely online, so you can open it on your phone, tablet or another computer.</p>
+  <p id="acctOff" class="lead" hidden>Accounts are not switched on for this copy of Genesis Studio. Everything else works as normal.</p>
+
+  <div id="acctOut" hidden>
+    <div class="row" role="group" aria-label="What would you like to do">
+      <button type="button" class="preset" data-form="fIn" aria-pressed="true">Sign in</button>
+      <button type="button" class="preset" data-form="fUp" aria-pressed="false">Create an account</button>
+      <button type="button" class="preset" data-form="fForgot" aria-pressed="false">Forgot my password</button>
+    </div>
+
+    <form id="fIn" class="acct" novalidate>
+      <h3>Sign in</h3>
+      <label for="inEmail">Email<input type="email" id="inEmail" autocomplete="username" inputmode="email" required maxlength="254" spellcheck="false" autocapitalize="off"></label>
+      <label for="inPass">Password<input type="password" id="inPass" autocomplete="current-password" required maxlength="128"></label>
+      <label class="check" for="inShow"><input type="checkbox" id="inShow" data-show="inPass"><span>Show password</span></label>
+      <div><button type="submit">Sign in</button></div>
+    </form>
+
+    <form id="fUp" class="acct" novalidate hidden>
+      <h3>Create an account</h3>
+      <label for="upEmail">Email<small>Only used to sign in and to reset your password. Never shown to anyone or shared.</small><input type="email" id="upEmail" autocomplete="username" inputmode="email" required maxlength="254" spellcheck="false" autocapitalize="off"></label>
+      <label for="upPass">Password<small id="upRules">At least 10 characters. A few words together make a strong password that is easy to remember.</small><input type="password" id="upPass" autocomplete="new-password" required minlength="10" maxlength="128" aria-describedby="upRules"></label>
+      <label for="upPass2">Type the password again<input type="password" id="upPass2" autocomplete="new-password" required maxlength="128"></label>
+      <label class="check" for="upShow"><input type="checkbox" id="upShow" data-show="upPass upPass2"><span>Show passwords</span></label>
+      <div><button type="submit">Create my account</button></div>
+    </form>
+
+    <form id="fForgot" class="acct" novalidate hidden>
+      <h3>Forgot my password</h3>
+      <p class="lead">Type your email. If it has an account, you will get a link to choose a new password.</p>
+      <label for="fgEmail">Email<input type="email" id="fgEmail" autocomplete="username" inputmode="email" required maxlength="254" spellcheck="false" autocapitalize="off"></label>
+      <div><button type="submit">Send the link</button></div>
+    </form>
+  </div>
+
+  <form id="fNew" class="acct" novalidate hidden>
+    <h3>Choose a new password</h3>
+    <label for="nwPass">New password<small>At least 10 characters.</small><input type="password" id="nwPass" autocomplete="new-password" required minlength="10" maxlength="128"></label>
+    <label for="nwPass2">Type it again<input type="password" id="nwPass2" autocomplete="new-password" required maxlength="128"></label>
+    <label class="check" for="nwShow"><input type="checkbox" id="nwShow" data-show="nwPass nwPass2"><span>Show passwords</span></label>
+    <div><button type="submit">Save my new password</button></div>
+  </form>
+
+  <div id="acctIn" hidden>
+    <p id="who" class="result"></p>
+    <p id="syncState" class="lead"></p>
+    <div class="row"><button type="button" id="syncBtn">Sync now</button><button type="button" id="outBtn" class="ghost">Sign out</button></div>
+    <label class="check" for="wipeOnOut"><input type="checkbox" id="wipeOnOut"><span>When I sign out, also clear my library from this device<small>Good for a shared or school computer. Your library stays safe online.</small></span></label>
+    <details>
+      <summary>Change my password</summary>
+      <div>
+        <form id="fPass" class="acct" novalidate>
+          <label for="cpPass">New password<small>At least 10 characters.</small><input type="password" id="cpPass" autocomplete="new-password" required minlength="10" maxlength="128"></label>
+          <label for="cpPass2">Type it again<input type="password" id="cpPass2" autocomplete="new-password" required maxlength="128"></label>
+          <label class="check" for="cpShow"><input type="checkbox" id="cpShow" data-show="cpPass cpPass2"><span>Show passwords</span></label>
+          <div><button type="submit">Change my password</button></div>
+        </form>
+      </div>
+    </details>
+    <details>
+      <summary>Download or delete my data</summary>
+      <div>
+        <p class="lead">Download a copy of everything kept online for your account.</p>
+        <div><button type="button" class="ghost" id="exportBtn">Download my data</button></div>
+        <p class="lead">Deleting your account removes it and every blueprint kept online, for good. It cannot be undone. Your library on this device stays.</p>
+        <form id="fDel" class="acct" novalidate>
+          <label for="delConfirm">To confirm, type the word DELETE<input type="text" id="delConfirm" autocomplete="off" spellcheck="false" autocapitalize="characters" maxlength="10"></label>
+          <div><button type="submit" class="danger">Delete my account forever</button></div>
+        </form>
+      </div>
+    </details>
+  </div>
+
+  <p id="acctMsg" class="msg" role="status" aria-live="polite"></p>
+  <p><a href="privacy.html">Privacy: what is kept and why</a></p>
+</section>
+
+<section id="useApp" aria-labelledby="hApp">
+  <h2 id="hApp"><span class="n">5</span> Use it as an app</h2>
+  <p class="lead">Genesis Studio works in any modern web browser on Windows, Mac, ChromeOS, Linux, Android, iPhone and iPad. You can also install it like an app. It then opens in its own window, gets its own icon, and keeps working without the internet once it has opened one time.</p>
+  <div><button type="button" id="installBtn" hidden>Install Genesis Studio</button></div>
+  <p id="installDone" class="lead" hidden>Genesis Studio is installed on this device. You can open it from your apps.</p>
+  <ul class="plain">
+    <li><strong>Windows, Mac, ChromeOS and Linux:</strong> in Chrome or Edge, press the Install button above. You can also open the browser menu and choose Install Genesis Studio, or Save and share, then Install page as app.</li>
+    <li><strong>Mac with Safari:</strong> open the File menu and choose Add to Dock.</li>
+    <li><strong>Android:</strong> press the Install button above, or open the Chrome menu and choose Add to Home screen, then Install.</li>
+    <li><strong>iPhone and iPad:</strong> in Safari, press the Share button, then Add to Home Screen, then Add.</li>
+  </ul>
+</section>
+
+<div id="status" role="status" aria-live="polite"></div>
+</main>
+<footer class="wrap">
+  <p class="sig">In the beginning there was /build.</p>
+  <p>Genesis and Genesis Studio by PixelProphetOG.</p>
+  <p><a href="Genesis_Guide.txt">The full guide</a> · <a href="privacy.html">Privacy</a></p>
+</footer>
+</div>
+
+<script src="config.js"></script>
+<script src="supabase.js"></script>
+<script src="palette.js"></script>
+<script src="studio.js"></script>
+<script src="account.js"></script>
+<script src="shell.js"></script>
+</body>
+</html>
