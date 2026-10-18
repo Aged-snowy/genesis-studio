@@ -223,7 +223,7 @@
     return plain;
   }
   async function unpack(d) {
-    if (d && d.v === 2 && typeof d.z === "string" && d.z.length < 9e6) { try { return JSON.parse(await unsqueeze(d.z)); } catch (e) { return null; } }
+    if (d && d.v === 2 && typeof d.z === "string" && d.z.length < 40e6) { try { return JSON.parse(await unsqueeze(d.z)); } catch (e) { return null; } }
     return d;
   }
   const same = (a, b) => a.data === b.data && a.size.join() === b.size.join() && a.pal.join() === b.pal.join();
