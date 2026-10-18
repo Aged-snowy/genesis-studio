@@ -1,5 +1,5 @@
 // Keeps Genesis Studio working offline. The version changes whenever the site changes.
-const CACHE = "genesis-studio-8ea600c96af6";
+const CACHE = "genesis-studio-3781b0436d97";
 const SHELL = ["./", "index.html", "privacy.html", "manifest.webmanifest", "studio.css", "config.js", "supabase.js", "palette.js", "studio.js", "account.js", "shell.js", "pdf.min.js", "pdf.worker.min.js", "atkinson-400.woff2", "atkinson-700.woff2", "pixelify-500.woff2", "pixelify-700.woff2", "apple-touch-icon.png", "favicon-32.png", "icon-192.png", "icon-512.png", "maskable-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
