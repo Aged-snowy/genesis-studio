@@ -31,6 +31,7 @@
     if (code === "email_not_confirmed" || /not confirmed/i.test(m)) return "Your account isn't confirmed yet. Open the link in the email we sent you, then sign in.";
     if (code === "weak_password" || /weak|pwned|leaked/i.test(m)) return "That password is too easy to guess, or has shown up in a data leak somewhere else. Please choose a different one.";
     if (code === "user_already_exists" || /already registered/i.test(m)) return "That email may already have an account. Try signing in, or choose Forgot my password.";
+    if (code === "23514" || /check constraint/i.test(m)) return "That blueprint is too big to keep online. It is still safe in your library on this device.";
     if (code === "same_password") return "That is already your password. Choose a different one.";
     if (/rate|too many/i.test(code + m)) return "Too many tries in a short time. Please wait a few minutes and try again.";
     if (code === "reauthentication_needed") return "For your safety, please sign out, then use Forgot my password to choose a new one.";
@@ -186,7 +187,8 @@
     try {
       const [b, s] = await Promise.all([sb.from("blueprints").select("name,data,created_at,updated_at").order("created_at"), sb.from("studio_settings").select("data,updated_at")]);
       if (b.error) throw b.error; if (s.error) throw s.error;
-      const out = { account: { email: user && user.email, created: user && user.created_at }, settings: s.data[0] || null, blueprints: b.data };
+      const bps = []; for (const r of b.data) bps.push({ ...r, data: await unpack(r.data) });
+      const out = { account: { email: user && user.email, created: user && user.created_at }, settings: s.data[0] || null, blueprints: bps };
       await saveFile("Genesis Studio my data.json", new Blob([JSON.stringify(out, null, 2)], { type: "application/json" }));
     } catch (e) { tell(friendly(e), true); }
   });
@@ -198,19 +200,38 @@
     const size = d.size;
     if (!Array.isArray(size) || size.length !== 3 || !size.every(n => Number.isInteger(n) && n > 0 && n <= 4096)) return null;
     if (!Array.isArray(d.pal) || d.pal.length > 4096 || !d.pal.every(p => typeof p === "string" && p.length <= 300 && (p === "" || /^[a-z0-9_:.\-]+(\|[^<>`$\\\n|]*)*$/i.test(p)))) return null;
-    if (typeof d.data !== "string" || d.data.length > 8e6) return null;
+    if (typeof d.data !== "string" || d.data.length > 64e6) return null;
     const out = { size: size.slice(), pal: d.pal.slice(), data: d.data, name: cleanName(name) };
     if (typeof d.kind === "string") out.kind = d.kind.slice(0, 60);
     if (Number.isFinite(d.blocks)) out.blocks = Math.max(0, Math.floor(d.blocks));
     return out;
   }
-  const payload = bp => ({ size: bp.size, pal: bp.pal, data: bp.data, kind: bp.kind || "blueprint", blocks: bp.blocks || 0 });
+  // Blueprints are packed small before they go online, so even huge builds fit.
+  const b64 = u => { let s = ""; for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000)); return btoa(s); };
+  const unb64 = t => { const s = atob(t), u = new Uint8Array(s.length); for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i); return u; };
+  async function squeeze(text) {
+    if (typeof CompressionStream === "undefined") return null;
+    const out = await new Response(new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"))).arrayBuffer();
+    return b64(new Uint8Array(out));
+  }
+  async function unsqueeze(z) {
+    return await new Response(new Blob([unb64(z)]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+  }
+  async function payload(bp) {
+    const plain = { size: bp.size, pal: bp.pal, data: bp.data, kind: bp.kind || "blueprint", blocks: bp.blocks || 0 };
+    try { const z = await squeeze(JSON.stringify(plain)); if (z) return { v: 2, z, size: bp.size, kind: plain.kind, blocks: plain.blocks }; } catch (e) { }
+    return plain;
+  }
+  async function unpack(d) {
+    if (d && d.v === 2 && typeof d.z === "string" && d.z.length < 9e6) { try { return JSON.parse(await unsqueeze(d.z)); } catch (e) { return null; } }
+    return d;
+  }
   const same = (a, b) => a.data === b.data && a.size.join() === b.size.join() && a.pal.join() === b.pal.join();
   function setSync(t) { q("#syncState").textContent = t; }
   let syncing = false, owed = false;
 
   async function pushBp(bp) {
-    const { error } = await sb.from("blueprints").upsert({ name: bp.name, data: payload(bp) }, { onConflict: "user_id,name" });
+    const { error } = await sb.from("blueprints").upsert({ name: bp.name, data: await payload(bp) }, { onConflict: "user_id,name" });
     if (error) throw error;
   }
   async function pushSettings() {
@@ -225,9 +246,9 @@
     try {
       const [b, s] = await Promise.all([sb.from("blueprints").select("name,data").order("created_at").limit(LIMIT + 50), sb.from("studio_settings").select("data").limit(1)]);
       if (b.error) throw b.error; if (s.error) throw s.error;
-      let got = 0, sent = 0, skipped = 0;
+      let got = 0, sent = 0, skipped = 0; const tooBig = [];
       const cloud = new Map();
-      for (const row of b.data) { const bp = cleanBp(row.name, row.data); if (bp) cloud.set(bp.name, bp); else skipped++; }
+      for (const row of b.data) { const bp = cleanBp(row.name, await unpack(row.data)); if (bp) cloud.set(bp.name, bp); else skipped++; }
       // settings: keep one pack identity across devices so saving again updates the same pack
       const cs = s.data[0] && s.data[0].data;
       if (cs && typeof cs === "object") {
@@ -242,7 +263,8 @@
         if (c && same(c, l)) continue;
         if (c) { let n = 2, nm; do nm = (l.name + "_" + n++).slice(0, 48); while (state.bps.some(x => x.name === nm) || cloud.has(nm)); l.name = nm; }
         if (cloud.size + sent >= LIMIT) continue;
-        await pushBp(l); sent++;
+        try { await pushBp(l); sent++; }
+        catch (e) { if (String(e && e.code) === "23514" || /check constraint|too large|payload/i.test(String(e && e.message))) tooBig.push(l.name); else throw e; }
       }
       await pushSettings();
       persist(); renderLibrary();
@@ -250,7 +272,7 @@
       if (got) parts.push(`${got} blueprint${got === 1 ? "" : "s"} arrived from your account`);
       if (sent) parts.push(`${sent} from this device ${sent === 1 ? "was" : "were"} saved online`);
       const full = cloud.size + sent >= LIMIT ? ` Your account holds up to ${LIMIT} blueprints, so remove some to save more online.` : "";
-      setSync((parts.length ? parts.join(", and ") + ". " : "") + `Everything is up to date. ${state.bps.length} blueprint${state.bps.length === 1 ? "" : "s"} in your library.` + full + (skipped ? ` ${skipped} damaged one${skipped === 1 ? " was" : "s were"} left out.` : ""));
+      setSync((parts.length ? parts.join(", and ") + ". " : "") + `Everything is up to date. ${state.bps.length} blueprint${state.bps.length === 1 ? "" : "s"} in your library.` + full + (skipped ? ` ${skipped} damaged one${skipped === 1 ? " was" : "s were"} left out.` : "") + (tooBig.length ? ` ${tooBig.map(n => n.replace(/_/g, " ")).join(", ")} ${tooBig.length === 1 ? "is" : "are"} too big to keep online, so ${tooBig.length === 1 ? "it stays" : "they stay"} on this device only.` : ""));
     } catch (e) {
       setSync(friendly(e));
     } finally {
